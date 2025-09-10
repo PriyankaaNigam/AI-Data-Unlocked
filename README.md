@@ -6,7 +6,7 @@ This repository starts with customer segmentation and will grow over time. Each 
 ### 1) Customer Segmentation with K-Means
 - Goal: group customers into meaningful segments for smarter marketing 
 - Dataset: Mall Customers dataset (Age, Annual Income, Spending Score)
-- Method: data prep, feature scalling, K-means clustering, elbow check for k
+- Method: data prep, feature scalling, K-means clustering, elbow check for k, silhouette score for validation
 - Outcome: clear personas as Budget Buyers, Mid-Spenders, and Luxury Shoppers
 A walkthrough video may be added later. For now, this repo contains everything needed to run the analysis.
 ---
