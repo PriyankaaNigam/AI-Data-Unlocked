@@ -5,6 +5,7 @@ Mall Customers dataset (features include Age, Annual Income, Spending Score).
 ## Method
 - Data prep and feature scaling
 - Elbow method to choose k
+- Silhouette score to validate cluster quality
 - K-Means clustering and 2D visualization
 ## Outputs
 - Cluster labels and scatter plot showing segments (e.g., Budget Buyers, Mid-Spenders, Luxury Shoppers)
