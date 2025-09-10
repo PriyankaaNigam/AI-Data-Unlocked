@@ -1,5 +1,5 @@
 # AI-Data-Unlocked
-Welcome to AI and Data Unlocked, a portfolio of hands-on projects that make AI, data science, and business analytics clear and practical.
+This portfolio contains hands-on projects that make AI, data science, and business analytics clear and practical.
 This repository starts with customer segmentation and will grow over time. Each project includes clean code and a short explanation of why it matters.
 ---
 ## Current project
@@ -8,7 +8,7 @@ This repository starts with customer segmentation and will grow over time. Each 
 - Dataset: Mall Customers dataset (Age, Annual Income, Spending Score)
 - Method: data prep, feature scalling, K-means clustering, elbow check for k, silhouette score for validation
 - Outcome: clear personas as Budget Buyers, Mid-Spenders, and Luxury Shoppers
-A walkthrough video may be added later. For now, this repo contains everything needed to run the analysis.
+- A walkthrough video may be added later. For now, this repo contains everything needed to run the analysis.
 ---
 ## Tech stack
 - Python (pandas, numpy, scikit-learn, matplotlib, seaborn)
