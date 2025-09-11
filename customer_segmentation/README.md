@@ -12,5 +12,7 @@ Mall Customers dataset (features include Age, Annual Income, Spending Score).
 - **Spending vs. Age:** Younger customers tend to have higher spending scores than older customers.
 - **Income vs. Age:** Older customers earn slightly less than younger ones.
 - **Spending vs. Income:** How much a customer earns does not strongly determine how much they spend.
+
+- Did not include Boxplots and outlier removal as extreme values such as higher income provide meaninful contribution.
 ## Outputs
 - Cluster labels and scatter plot showing segments (e.g. Budget Buyers, Mid-Spenders, Luxury Shoppers)
