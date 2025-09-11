@@ -7,7 +7,9 @@ Mall Customers dataset (features include Age, Annual Income, Spending Score).
 - Elbow method to choose k
 - Silhouette score to validate cluster quality
 - K-Means clustering and 2D visualization
-- Irrelevant columns (CustomerID) and categorical variables (Genre) were excluded. The clustering was performed on Age, Annual Income, and Spending Score.
+- 
+- Note: Irrelevant columns (CustomerID) and categorical variables (Genre) were excluded.
+  
 ## Insights from EDA
 - **Spending vs. Age:** Younger customers tend to have higher spending scores than older customers.
 - **Income vs. Age:** Older customers earn slightly less than younger ones.
