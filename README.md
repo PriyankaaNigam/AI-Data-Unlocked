@@ -1,14 +1,13 @@
 # AI-Data-Unlocked
 This portfolio contains hands-on projects that make AI, data science, and business analytics clear and practical.
-This repository starts with customer segmentation and will grow over time. Each project includes clean code and a short explanation of why it matters.
+This repository starts with customer segmentation and will grow over time.
 ---
 ## Current project
 ### 1) Customer Segmentation with K-Means
-- Goal: group customers into meaningful segments for smarter marketing 
+- Goal: Group customers into meaningful segments for smarter marketing 
 - Dataset: Mall Customers dataset (Age, Annual Income, Spending Score)
-- Method: data prep, feature scalling, K-means clustering, elbow check for k, silhouette score for validation
-- Outcome: clear personas as Budget Buyers, Mid-Spenders, and Luxury Shoppers
-- A walkthrough video may be added later. For now, this repo contains everything needed to run the analysis.
+- Method: Data prep, feature scalling, K-means clustering, elbow check for k, silhouette score for validation
+- Outcome: Clear personas as Budget Buyers, Mid-Spenders, and Luxury Shoppers
 ---
 ## Tech stack
 - Python (pandas, numpy, scikit-learn, matplotlib, seaborn)
@@ -19,4 +18,3 @@ More projects will be added here as my journey continues.
 ## Connect with me
 - LinkedIn: https://www.linkedin.com/in/priyankaa-nigam/
 - Github :https://github.com/PriyankaaNigam/AI-Data-Unlocked
-- Youtube: http://www.youtube.com/@AIDataUnlocked
