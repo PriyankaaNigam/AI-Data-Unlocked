@@ -10,7 +10,7 @@
 This repositorycontains hands-on projects in **data science** and **business analytics**. Each project has its own folder with code, documentation, and results.
 ---
 ## Projects
-1. Customer Segmentation with K-Means (https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/customer_segmentation)
+- [Customer Segmentation with K-Means](https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/customer_segmentation)
 ---
 ## Upcoming Projects
 - Streamlit App
@@ -19,4 +19,4 @@ This repositorycontains hands-on projects in **data science** and **business ana
 - Recommender System
 ---
 ## Connect
-- LinkedIn: https://www.linkedin.com/in/priyankaa-nigam/
+- [LinkedIn](https://www.linkedin.com/in/priyankaa-nigam/)
