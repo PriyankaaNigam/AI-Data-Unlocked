@@ -1,20 +1,22 @@
-# Customer segmentation (K-Means)
-This project groups customers into meaningful segments using K-Means so that businesses can tailor marketing and offers.
+# Customer segmentation with K-Means
+This project groups mall customers into segments using **K-Means clustering**
+Its part of my learning journey in data science: **EDA (Exploratory Data Analysis)**, **data preprocessing**, and **unsupervised machine learning**.
 ## Dataset
-Mall Customers dataset (features include Age, Annual Income, Spending Score).
-## Method
-- Data prep and feature scaling
-- Elbow method to choose k
-- Silhouette score to validate cluster quality
-- K-Means clustering and 2D visualization
+Mall_Customers dataset (https://www.kaggle.com/datasets/shwetabh123/mall-customers
+(Features: Age, Annual Income, Spending Score)
+---
+## Steps
+1. **EDA** - Explored data with histograms, boxplots, and correlations
+2. **Preprocessing** - Cleaned data and scaled features with MinMaxScaler
+3. **Clustering** - Used **Elbow Method"** and **Solhouette Score** to find the best number of clusters (k=6) 
+ 4. **Results**  - Visuaized clusters, added cluster centers, and compared groups 
   
-- **Note:** Irrelevant columns (CustomerID) and categorical variables (Genre) were excluded.
-  
-## Insights from EDA
-- **Spending vs. Age:** Younger customers tend to have higher spending scores than older customers.
-- **Income vs. Age:** Older customers earn slightly less than younger ones.
-- **Spending vs. Income:** How much a customer earns does not strongly determine how much they spend.
+## Key Insights
+- Younger customers tend to spend more than older customers.
+- Income does not always predict spending.
+- Segments include groups like *young high spenders*, *older mid-spenders*, *high income-high spenders*, and *budget buyers*.
+- Businesses can use these clusters to help design better marketing .
 
-- Did not include Boxplots and outlier removal as extreme values such as higher income provide meaningful contribution.
-## Outputs
-- Cluster labels and scatter plot showing segments (e.g. Budget Buyers, Mid-Spenders, Luxury Shoppers)
+## Tools / Libraries
+- Python (Jupyter Notebook)
+- pandas, matplotlib,scikit-learn
