@@ -20,4 +20,3 @@ This repositorycontains hands-on projects in **data science** and **business ana
 ---
 ## Connect
 - LinkedIn: https://www.linkedin.com/in/priyankaa-nigam/
-- Github :https://github.com/PriyankaaNigam/AI-Data-Unlocked
