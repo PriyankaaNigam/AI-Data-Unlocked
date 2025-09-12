@@ -1,5 +1,5 @@
 # AI-Data-Unlocked
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logoColor=white)
 ![Numpy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logoColor=white)
 ![sci-kit-learn](https://img.shields.io/badge/sci-kitlearn-F7931E?style=for-the-badge&logoColor=white)
