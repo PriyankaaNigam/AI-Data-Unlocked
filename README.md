@@ -1,4 +1,5 @@
 # AI-Data-Unlocked
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logoColor=white)
 This repositorycontains hands-on projects in **data science** and **business analytics**. Each project has its own folder with code, documentation, and results.
 ---
 ## Projects
