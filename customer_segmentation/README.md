@@ -1,6 +1,6 @@
 # Customer segmentation with K-Means
-This project groups mall customers into segments using **K-Means clustering**
-Its part of my learning journey in data science: **EDA (Exploratory Data Analysis)**, **data preprocessing**, and **unsupervised machine learning**.
+This project groups mall customers into segments using **K-Means clustering**.
+Its part of my learning journey in data science (**EDA**, **data preprocessing**, and **unsupervised machine learning**).
 ## Dataset
 Mall_Customers dataset (https://www.kaggle.com/datasets/shwetabh123/mall-customers
 (Features: Age, Annual Income, Spending Score)
