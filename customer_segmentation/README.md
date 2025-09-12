@@ -15,7 +15,7 @@ Mall_Customers dataset (https://www.kaggle.com/datasets/shwetabh123/mall-custome
 - Younger customers tend to spend more than older customers.
 - Income does not always predict spending.
 - Segments include groups like *young high spenders*, *older mid-spenders*, *high income-high spenders*, and *budget buyers*.
-- Businesses can use these clusters to help design better marketing .
+- Businesses can use these clusters to help design better marketing strategies. .
 
 ## Tools / Libraries
 - Python (Jupyter Notebook)
