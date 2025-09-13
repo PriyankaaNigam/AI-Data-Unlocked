@@ -9,7 +9,7 @@ Mall_Customers dataset (https://www.kaggle.com/datasets/shwetabh123/mall-custome
 1. **EDA** - Explored data with histograms, boxplots, and correlations
 2. **Preprocessing** - Cleaned data and scaled features with MinMaxScaler
 3. **Clustering** - Used **Elbow Method** and **Solhouette Score** to find the best number of clusters (k=6) 
-4. **Results**  - Visuaized clusters, added cluster centers, and compared groups 
+4. **Results**  - Visualized clusters, added cluster centers, and compared groups 
   
 ## Key Insights
 - Younger customers tend to spend more than older customers.
@@ -19,4 +19,4 @@ Mall_Customers dataset (https://www.kaggle.com/datasets/shwetabh123/mall-custome
 
 ## Tools / Libraries
 - Python (Jupyter Notebook)
-- pandas, matplotlib,scikit-learn
+- pandas, matplotlib, scikit-learn
