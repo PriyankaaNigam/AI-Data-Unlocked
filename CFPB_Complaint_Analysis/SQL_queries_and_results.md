@@ -99,9 +99,9 @@ ORDER BY complaint_year;
  FROM complaints  
  GROUP BY Company  
  ORDER BY total_complaints DESC  
- LIMIT 25;
+ LIMIT 10;
 
-### Result: Top 10 companies by complaints and response rate
+### Result: Top 10 companies by complaints and their response rates
 
 |     | Company                               | total_complaints | timely_response_rate_pct |
 |:---:|---------------------------------------|------------------|-------------------------:|
