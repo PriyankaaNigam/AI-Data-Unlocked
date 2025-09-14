@@ -1,18 +1,22 @@
 # SQL Queries and Results for CFPB Consumer Complaints Dataset
 ---
-## Query 1. 
-## Count number of rows in table Complaint
+### Query 1: Count number of rows in table Complaint
+
+**SQL:**
+
 SELECT COUNT (*) AS total_rows
 
 FROM complaints
 
-### Result/Insight: 
-### 10,935,662
+### Result:
+
+**10,935,662**
 
 This matches data size, conforming that data was imported successfully.
 
-## Query 2. 
-## What are the biggest sources of consumer complaints?
+### Query 2: What are the biggest sources of consumer complaints?
+
+**SQL:**
 
  SELECT Product, COUNT(*) AS complaint_count
 
@@ -24,7 +28,7 @@ This matches data size, conforming that data was imported successfully.
  
  LIMIT 10;
 
-### Result/Insight:
+### Result:
 
 ### Top 10 products by number of complaints
 
@@ -41,10 +45,14 @@ This matches data size, conforming that data was imported successfully.
 |  9  | Credit reporting                                                            |      140429     |
 |  10 | Student loan                                                                |      113611     |
 
-The most common source of consumer complaints is credit reporting, constituting more than 55% of total complaints.
+**Insight:**
 
-## Query 2. 
-## How have complaint volumes changed over time?
+The most common source of consumer complaints is credit reporting, constituting more than 55% of total complaints.
+Inaccurate credit reporting is a real pain point for consumers.
+
+### Query 3: How have complaint volumes changed over time?
+
+**SQL:**
 
 SELECT STRFTIME('%Y', "Date received") AS complaint_year, 
 COUNT(*) AS total_complaints
@@ -55,7 +63,7 @@ GROUP BY complaint_year
 
 ORDER BY complaint_year;
 
-### Result/Insight:
+### Result:
 
 ### Total Complaints over Time
 
@@ -77,6 +85,8 @@ ORDER BY complaint_year;
 |  14 | 2024              |   2737703        |
 |  15 | 2025              |   3691962        |
 
+**Insight:** 
+
 Data shows a **clear exponential upward trend** in the number of consumer complaints filed with CFPB (Consumer Finance Protection Board). 
 
 Complaints rose from just **2,536** in 2011 to over **3.6 milion** in 2025
@@ -87,3 +97,44 @@ Complaints rose from just **2,536** in 2011 to over **3.6 milion** in 2025
 - Economic conditions such as COVID-19 pandemic
 - Increasing dissatisfaction with financial products such as credit reporting and debt collection 
 
+## Query 4 
+## Which companies receive the most complaints, and how timely are their responses?
+
+**SQL:**
+ SELECT Company,
+ COUNT(*) AS total_complaints,
+ 
+ SUM(CASE WHEN "Timely response?" = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*) AS timely_response_rate_pct
+   
+ FROM complaints
+ 
+ GROUP BY Company
+ 
+ ORDER BY total_complaints DESC
+ 
+ LIMIT 25;
+
+### Result:
+
+Top 10 companies shown
+
+|     | Company                               | total_complaints | timely_response_rate_pct |
+|:---:|---------------------------------------|------------------|-------------------------:|
+|  1  | Equifax, Inc                          |    2738795       |      99.94               |
+|  2  | TranUnion Intermediate Hodlinngs, Inc |    2681896       |      99.99               |
+|  3  | Experian Informatio Soutions, Inc     |    2492174       |      99.99               |
+|  4  | Bank of America, N.A.                 |     162396       |      97.37               |
+|  5  | Wells Fargo & Company                 |     151359       |      97.48               |
+|  6  | JPMorgan Chase & Co.                  |     148523       |      99.94               |
+|  7  | Capital One Financial Corporation     |     117454       |      99.94               |
+|  8  | Citibank N.A.                         |      66762       |      99.69               |
+|  9  | Synchrony Financial                   |      55060       |      99.96               |
+|  10 | Block, Inc.                           |      117454      |      98.61               |
+
+**Insight:** 
+
+- The three credit bureaus (Equifax, TransUnion,and Experian) have the highest number of complaints.
+- Most companies have high timely response rates (> 97%).
+- Large national banks such as Bank of America and Wells Fargo have higher complaints and slightly lower response rates, possibly because of the volume of customers.
+
+Financial institutions need to provide accurate credit reports and better customer service, rather than addressing the issues after complaints.
