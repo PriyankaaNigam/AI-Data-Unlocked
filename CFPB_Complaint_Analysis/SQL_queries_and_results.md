@@ -46,7 +46,7 @@ Confirms the dataset was imported successfully, with over 10.9 milion complaints
 **Insight:**
 
 - **Credit Reporting** is the most common source of consumer complaints, constituting more than 55% of total complaints.
-- Inaccurate or disputed reported are major pain point for consumers.
+- Inaccurate or disputed reported are major pain points for consumers.
 - Suggests need for better credit data accuracy and dispute resolution.
   
 ### Query 3: How have complaint volumes changed over time?
@@ -84,10 +84,10 @@ ORDER BY complaint_year;
 - Clear **exponential growth** in complaints
 - From **2,536** in 2011 to over **3.6 milion** in 2025
 - **Possible factors**
-- Increasing consumer awareness of CFPB 
-- Easier Online submissions
-- COVID-19 pandemic impacts on finances
-- rowing dissatisfaction with credit reporting and debt collection 
+  - Increasing consumer awareness of CFPB 
+  - Easier Online submissions
+  - COVID-19 pandemic impacts on finances
+  - rowing dissatisfaction with credit reporting and debt collection 
 
 ## Query 4 
 ## Which companies receive the most complaints, and how timely are their responses?
@@ -118,7 +118,7 @@ ORDER BY complaint_year;
 
 **Insight:** 
 
-- The three major credit bureaus (Equifax, TransUnion,and Experian) have the highest number of complaints.
+- The three major credit bureaus (Equifax, TransUnion, and Experian) have the highest number of complaints.
 - Most firms have high timely response rates (> 97%).
-- Large national banks like Bank of America and Wells Fargo show slightly lower response rates, possibly due to the volume of customers.
+- Large national banks like Bank of America and Wells Fargo show slightly lower response rates, possibly due to high volume of customers.
 - Indicates need for proactive customer service, not just reactive complaint handling.
