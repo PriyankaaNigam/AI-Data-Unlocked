@@ -47,8 +47,7 @@ The most common source of consumer complaints is credit reporting, constituting 
 ## How have complaint volumes changed over time?
 
 SELECT STRFTIME('%Y', "Date received") AS complaint_year, 
-
-       COUNT(*) AS total_complaints
+COUNT(*) AS total_complaints
        
 FROM complaints
 
