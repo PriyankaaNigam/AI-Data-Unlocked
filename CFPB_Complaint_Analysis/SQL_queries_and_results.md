@@ -1,7 +1,7 @@
 # SQL Querries and Results for CFPB Consumer Complaints Dataset
 ---
 ## Query 1. 
-##Count number of rows in table Complaint
+## Count number of rows in table Complaint
 SELECT COUNT (*) AS total_rows
 FROM complaints
 
@@ -25,8 +25,11 @@ This matches data size, conforming that data was imported successfully.
     LIMIT 10;
 
 Result/Insight:
+
 Top 10 products by number of complaints
+
 Product                                                                           complaint_count
+
 Credit reporting or personal conumer reports                                          6026988
 Credit reporting,credit repair services, or other personal consumer reports           2163851
 Debt collection                                                                        866980
