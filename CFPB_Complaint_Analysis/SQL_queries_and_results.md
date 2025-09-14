@@ -82,12 +82,12 @@ ORDER BY complaint_year;
 **Insight:** 
 
 - Clear **exponential growth** in complaints
-- From **2,536** in 2011 to over **3.6 milion** in 2025
+ - From **2,536** in 2011 to over **3.6 milion** in 2025
 - **Possible factors**
   - Increasing consumer awareness of CFPB 
   - Easier Online submissions
   - COVID-19 pandemic impacts on finances
-  - rowing dissatisfaction with credit reporting and debt collection 
+  - Growing dissatisfaction with credit reporting and debt collection 
 
 ## Query 4 
 ## Which companies receive the most complaints, and how timely are their responses?
