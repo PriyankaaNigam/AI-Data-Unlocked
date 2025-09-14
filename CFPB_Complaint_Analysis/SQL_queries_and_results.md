@@ -28,15 +28,15 @@ Result/Insight:
 
 Top 10 products by number of complaints
 
-Product                                                                           complaint_count
-
-Credit reporting or personal conumer reports                                          6026988
-Credit reporting,credit repair services, or other personal consumer reports           2163851
-Debt collection                                                                        866980
-Mortgage                                                                               427829
-Checking or savings account                                                            308148 
-Credit card                                                                            248461
-Credit card or prepaid card                                                            206368
-Money transfer, virtual currency, or money service                                     152380
-Credit reporting                                                                       140429 
-Student loan                                                                           113611
+| Rank | Product                                                                    | Complaint Count |
+|:---:|-----------------------------------------------------------------------------|----------------:|
+|  1  | Credit reporting or personal conumer reports                                |     6026988     |
+|  2  | Credit reporting,credit repair services, or other personal consumer reports |     2163851     |
+|  3  | Debt collection                                                             |      866980     |
+|  4  | Mortgage                                                                    |      427829     |
+|  5  | Checking or savings account                                                 |      308148     |
+|  6  | Credit card                                                                 |      248461     |
+|  7  | Credit card or prepaid card                                                 |      206368     |
+|  8  | Money transfer, virtual currency, or money service                          |      152380     |
+|  9  | Credit reporting                                                            |      140429     |
+|  10 | Student loan                                                                |      113611     |
