@@ -120,5 +120,5 @@ ORDER BY complaint_year;
 
 - The three major credit bureaus (Equifax, TransUnion, and Experian) have the highest number of complaints.
 - Most firms have high timely response rates (> 97%).
-- Large national banks like Bank of America and Wells Fargo show slightly lower response rates, possibly due to high volume of customers.
+- Large national banks like Bank of America and Wells Fargo show slightly lower response rates, possibly due to higher volume of customers.
 - Indicates need for proactive customer service, not just reactive complaint handling.
