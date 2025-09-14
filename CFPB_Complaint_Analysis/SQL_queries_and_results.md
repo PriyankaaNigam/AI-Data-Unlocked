@@ -3,11 +3,13 @@
 ## Query 1. 
 ## Count number of rows in table Complaint
 SELECT 
+
 COUNT (*) AS total_rows
+
 FROM complaints
 
 ### Result/Insight: 
-###10,935,662
+### 10,935,662
 
 This matches data size, conforming that data was imported successfully.
 
@@ -15,15 +17,20 @@ This matches data size, conforming that data was imported successfully.
 ## What are the biggest sources of consumer complaints?
 
  SELECT Product,
+ 
  COUNT(*) AS complaint_count
+
  FROM complaints
+ 
  GROUP BY Product
+
  ORDER BY complaint_count DESC
+ 
  LIMIT 10;
 
-###Result/Insight:
+### Result/Insight:
 
-###Top 10 products by number of complaints
+### Top 10 products by number of complaints
 
 | Rank | Product                                                                    | Complaint Count |
 |:---:|-----------------------------------------------------------------------------|----------------:|
