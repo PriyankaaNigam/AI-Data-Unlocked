@@ -77,9 +77,13 @@ ORDER BY complaint_year;
 |  14 | 2024              |   2737703        |
 |  15 | 2025              |   3691962        |
 
-There is a clear upward trend in the number of consumer complaints submitted each year. 
+Data shows a **clear exponential upward trend** in the number of consumer complaints filed with CFPB (Consumer Finance Protection Board). 
 
-Some factors which could contribute to this may include
-- consumers becoming increasingly more aware of the existence of Consumer Financial Protection Bureau
-- escalating issues withh financial products
+Complaints rose from just **2,536** in 2011 to over **3.6 milion** in 2025
+
+**Possible factors**
+- Increasing consumer awareness of CFPB 
+- Easier Online submissions
+- Economic conditions such as COVID-19 pandemic
+- Increasing dissatisfaction with financial products such as credit reporting and debt collection 
 
