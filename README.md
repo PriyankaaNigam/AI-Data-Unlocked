@@ -13,7 +13,7 @@ Each project has its own folder with code, documentation, and results.
 ---
 ## Projects
 - [Customer Segmentation with K-Means](https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/customer_segmentation)
-- [CFPB Consumer Complaints Analysis (SQL & Insights](https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/CFPB_Complaint_Analysis)
+- [CFPB Consumer Complaints Analysis (SQL & Insights)](https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/CFPB_Complaint_Analysis)
 ---
 ## Upcoming Projects
 - Streamlit App
