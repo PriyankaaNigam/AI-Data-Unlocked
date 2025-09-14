@@ -1,18 +1,23 @@
 # SQL Queries and Results for CFPB Consumer Complaints Dataset
+
+This fie includes the **SQL code**, **query results**, and **business insights** from key SQL queries performed on the CFPB Consumer Complaints dataset.
+
 ---
-### Query 1: Count number of rows in table Complaint
+
+### Query 1: Count number of rows in the table
 
 **SQL:**
-
+'''sql
 SELECT COUNT (*) AS total_rows
 
-FROM complaints
+FROM complaints;
 
 ### Result:
 
-**10,935,662**
+**Total Rows:** 10,935,662
 
-This matches data size, conforming that data was imported successfully.
+**Insight:**
+Confirms the dataset was imported successfully, with over 10.9 milion complaints.
 
 ### Query 2: What are the biggest sources of consumer complaints?
 
