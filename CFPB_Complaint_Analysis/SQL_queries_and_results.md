@@ -16,9 +16,9 @@ This matches data size, conforming that data was imported successfully.
 ## Query 2. 
 ## What are the biggest sources of consumer complaints?
 
- SELECT Product,
- 
- COUNT(*) AS complaint_count
+ SELECT Product, 
+  
+        COUNT(*) AS complaint_count
 
  FROM complaints
  
@@ -32,7 +32,7 @@ This matches data size, conforming that data was imported successfully.
 
 ### Top 10 products by number of complaints
 
-| Rank | Product                                                                    | Complaint Count |
+|     | Product                                                                     | complaint_count |
 |:---:|-----------------------------------------------------------------------------|----------------:|
 |  1  | Credit reporting or personal conumer reports                                |     6026988     |
 |  2  | Credit reporting,credit repair services, or other personal consumer reports |     2163851     |
@@ -44,3 +44,47 @@ This matches data size, conforming that data was imported successfully.
 |  8  | Money transfer, virtual currency, or money service                          |      152380     |
 |  9  | Credit reporting                                                            |      140429     |
 |  10 | Student loan                                                                |      113611     |
+
+The most common source of consumer complaints is credit reporting, constituting more than 55% of total complaints.
+
+## Query 2. 
+## How have complaint volumes changed over time?
+
+SELECT STRFTIME('%Y', "Date received") AS complaint_year, 
+
+       COUNT(*) AS total_complaints
+       
+FROM complaints
+
+GROUP BY complaint_year
+
+ORDER BY complaint_year;
+
+### Result/Insight:
+
+### Total Complaints over Time
+
+|     | complaint_year    | total_complaints |
+|:---:|-------------------|-----------------:|
+|  1  | 2011              |     2536         |
+|  2  | 2012              |    723721        |
+|  3  | 2013              |    108215        |
+|  4  | 2014              |    153001        |
+|  5  | 2015              |    168429        |
+|  6  | 2016              |    191401        |
+|  7  | 2017              |    242840        |
+|  8  | 2018              |    257198        |
+|  9  | 2019              |    277287        |
+|  10 | 2020              |    444284        |
+|  11 | 2021              |    495987        |
+|  12 | 2022              |    800340        |
+|  13 | 2023              |   1292107        |
+|  14 | 2024              |   2737703        |
+|  15 | 2025              |   3691962        |
+
+There is a clear upward trend in the number of consumer complaints submitted each year. 
+
+Some factors which could contribute to this may include
+- consumers becoming increasingly more aware of the existence of Consumer Financial Protection Bureau
+- escalating issues withh financial products
+
