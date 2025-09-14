@@ -1,4 +1,4 @@
-# SQL Querries and Results for CFPB Consumer Complaints Dataset
+# SQL Queries and Results for CFPB Consumer Complaints Dataset
 ---
 ## Query 1. 
 ## Count number of rows in table Complaint
