@@ -6,12 +6,12 @@ I used SQL to identify industry-wide complaint trends and created new metrics to
 
 ## Dataset
 - **Source:** [CFPB Consumer Complaints](https://www.consumerfinance.gov/data-research/consumer-complaints/)
-- **Feature:** Product, Issue, Company, Date Received, Timely Response
+- **Key Fieids:** Product, Issue, Company, Date Received, Timely Response
 
 ## Steps
-1. **EDA:** Queried complaint counts by product and company using FROM and GROUP BY functions.
-2. **Trend Analysis:** Aggregated complaints by year using data functions to observe growth over time.
-3. **New Metric:** Created a "Timely Response Rate" metric using CASE statements to evaluate company service quality.
+1.  Queried complaint counts by product and company using FROM and GROUP BY functions.
+2.  Aggregated complaints by year using data functions to observe growth over time.
+3.  Created a "Timely Response Rate" metric using CASE statements to evaluate company service quality.
 
 ## Key Insights
 - **Credit reporting** accounted for over 55% of total complaints, far exceeding other categories.
