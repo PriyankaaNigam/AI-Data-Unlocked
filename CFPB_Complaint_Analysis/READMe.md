@@ -1,8 +1,8 @@
-# SQL Analysis of the CPFB Consumer Complaint Database
+#  CPFB Complaint Analysis - SQL 
 
-## This project analyzes over 10M+ consumer complainsts from the Consumer Finanacial Protection Bureau (CFPB) database.  
-I used SQL to identify industry-wide complait trends and created new metrics to benchmark customer service performance.
+###This project analyzes over 10M+ consumer complainsts from the Consumer Finanacial Protection Bureau (CFPB) database.  
 
+I used SQL to identify industry-wide complaint trends and created new metrics to benchmark customer service performance.
 
 ## Dataset
 - **Source:** [CFPB Consumer Complaints](https://www.consumerfinance.gov/data-research/consumer-complaints/)
@@ -14,10 +14,11 @@ I used SQL to identify industry-wide complait trends and created new metrics to 
 3. **New Metric:** Created a "timely Response Rate" metric using CASE statements to evaluate company service quality.
 
 ## Key Insights
-- Credit reporting is the top complaint (>55% of complaints)
-- Complaint volume has increased exponentially over time
-- Many firms respond on time despite hiher complaint counts
+- **Credit reporting** accounted for over 55% of total comlaints, far exceeding other categories.
+- Complaint volume has increased **exponentially** over time.
+- Although many firms have very high complaint counts, they give a timely repsonse to complaints (>97%)
+- Suggests necessity for proactive customer service rather than reactive complaint management.
 
 ##Tools
 - SQLite3
-- DB Drowser for SQLite
+- DB Browser for SQLite
