@@ -19,6 +19,6 @@ I used SQL to identify industry-wide complaint trends and created new metrics to
 - Although many firms have very high complaint counts, they give a timely respsonse to consumers (>97%)
 - Suggests necessity for proactive customer service rather than reactive complaint management.
 
-##Tools
+ ## Tools
 - SQLite3
 - DB Browser for SQLite
