@@ -1,6 +1,6 @@
 # SQL Queries and Results for CFPB Consumer Complaints Dataset
 
-This fie includes the **SQL code**, **query results**, and **business insights** from key SQL queries performed on the CFPB Consumer Complaints dataset.
+This file includes the **SQL code**, **query results**, and **business insights** from key SQL queries performed on the CFPB Consumer Complaints dataset.
 
 ---
 
