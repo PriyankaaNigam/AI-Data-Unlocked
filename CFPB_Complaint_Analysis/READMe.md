@@ -1,4 +1,4 @@
-#  CPFB Complaint Analysis - SQL 
+#  CFPB Complaint Analysis - SQL 
 
 ### This project analyzes over 10M+ consumer complaints from the Consumer Finanacial Protection Bureau (CFPB) database.  
 
