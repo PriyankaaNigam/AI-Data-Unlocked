@@ -1,6 +1,6 @@
 ##  CFPB Complaint Analysis - SQL & Tableau
 
-This project analyzes over 10.9M consumer complaints from the Consumer Finanacial Protection Bureau (CFPB) database as of September 15,2025.  
+This project analyzes over 10.9M consumer complaints from the Consumer Financial Protection Bureau (CFPB) database as of September 15,2025.  
 I used SQL to uncover industry-wide complaint trends and benchmark company resposnse performance. I built an interactive Tableau dashboard to visualize these insights.
 ---
 
