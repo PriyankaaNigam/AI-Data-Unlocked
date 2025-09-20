@@ -7,7 +7,7 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E9767?style=for-the-badge&logoColor=white)
 ![POWER BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&Logo=Power%20BI&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&Logo=PowerBI&logoColor=white)
 ![Last Commit](https://img.shields.io/github/last-commit/PriyankaaNigam/AI-Data-Unlocked?style=for-the-badge&color=brightgreen)
 ---
 This repository contains hands-on projects in **data science** and **business analytics**.
