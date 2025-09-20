@@ -26,7 +26,7 @@ Complaints disputed?
 
 ### Tableau Visualization
 Explore the interactive dashboard showing complaint trends, company/product breakdowns and performance metrics.
-https://public.tableau.com/app/profile/priyankaa.nigam/viz/CFPBComplaintsDashboard_17583408190900/CFPBDashboard
+[View on Tableau Public](https://public.tableau.com/app/profile/priyankaa.nigam/viz/CFPBComplaintsDashboard_17583408190900/CFPBDashboard)
 
 
  ### Tools
