@@ -173,7 +173,7 @@ FROM complaints;
 
 - Most consumers were satified with the resolution of their complaints.
 
-## Query 6
+## Query 7
 ## What percentage of consumer complaints received monetary relief?
 
 **SQL:**
