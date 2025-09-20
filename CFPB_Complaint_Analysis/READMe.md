@@ -13,7 +13,7 @@ Complaints disputed?
 ### Steps
 1.  Queried complaint counts by product and company using 'FROM' and 'GROUP BY' functions.
 2.  Aggregated complaints by year (2011 - 2025) using data functions to observe complaint growth over time.
-3.  Created metrics such *Timely Response Rate*, *Dispute Rate*, and *Monetary Relief Percentage" using CASE statements.
+3.  Created metrics such *Timely Response Rate*, *Dispute Rate*, and *Monetary Relief Percentage* using CASE statements.
 4.  Built a Tableau dashboard showcasing trends over time, top 10 companies and products with highest compalint volumes, and important KPIs (Key Performance Indicators) such as growth, timely response rates, dispute rates, and monetary relief.
  ---
 
