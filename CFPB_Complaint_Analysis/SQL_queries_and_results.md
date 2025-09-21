@@ -89,8 +89,7 @@ ORDER BY complaint_year;
   - COVID-19 pandemic impacts on finances
   - Growing dissatisfaction with credit reporting and debt collection 
 
-### Query 4 
-### Which companies receive the most complaints, and how timely are their responses?
+### Query 4: Which companies receive the most complaints, and how timely are their responses?
 
 **SQL:**
 
@@ -124,8 +123,7 @@ ORDER BY complaint_year;
 - Large national banks like Bank of America and Wells Fargo show slightly lower response rates, possibly due to higher volume of customers.
 - Indicates need for proactive customer service, not just reactive complaint handling.
 
-### Query 5
-## By how much percentage has the volume of complaints grown from 2011 to 2025 YTD?
+### Query 5: By how much percentage has the volume of complaints grown from 2011 to 2025 YTD?
 
 **SQL:**
 SELECT 
@@ -145,8 +143,7 @@ FROM complaints;
 
 - The volume of complaints has exploded between 2011 and 2025.
 
-### Query 6
-### Were consumers satisfied with how the companies resolved their complaints?
+### Query 6: Were consumers satisfied with how the companies resolved their complaints?
 
 **SQL:**
 
@@ -177,8 +174,7 @@ FROM complaints;
 - Most consumers are satified with the resolution of their complaints.
 - Or they do not challenge the resolution.
 
-### Query 7
-### What percentage of consumer complaints received monetary relief?
+### Query 7: What percentage of consumer complaints received monetary relief?
 
 **SQL:**
 
