@@ -46,8 +46,8 @@ Confirms the dataset was imported successfully, with over 10.9 milion complaints
 **Insight:**
 
 - **Credit Reporting** is the most common source of consumer complaints, constituting more than 75% of total complaints.
-- Inaccurate or disputed reported are major pain points for consumers.
-- Suggests need for better credit data accuracy and dispute resolution.
+- Inaccurate or disputed reports are major pain points for consumers.
+- Suggests need for better credit data accuracy.
   
 ### Query 3: How have complaint volumes changed over time?
 
