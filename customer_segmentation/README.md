@@ -15,11 +15,12 @@ Features: Age, Annual Income, Spending Score
 ## Results
 The analysis segmented customers into 5 distinct personas:
 
-| Cluster | Persona Name           | Avg. Age | Avg. Annual income ($) | Avg. Spending Score | Characteristics |
-|   0     | **Prime Spenders**     |   33     |           86,000       |       82            | High income, high spending. Most valuable customers   
-|   2     | **Eager Shoppers**     |   26     |           26,000       |       79            | Young, low income, high spending. Limited budget but trend-conscious
-|   3     | **Cautious Buyers**    |   44     |           90,000       |       18            | High income, very low spending. Careful and selective spenders
-| 1 & 4   | **Standard customers** |  27-56   |           50,000       |       42            | Average income, average spending. General mall visitors
+| Cluster | Persona Name           | Avg. Age | Avg. Annual income ($) | Avg. Spending Score | Characteristics                                                     |
+|:--------|------------------------|----------|------------------------|---------------------|--------------------------------------------------------------------:|
+|   0     | **Prime Spenders**     |   33     |           86,000       |       82            | High income, high spending. Most valuable customers                 | 
+|   2     | **Eager Shoppers**     |   26     |           26,000       |       79            | Young, low income, high spending. Limited budget but trend-conscious|
+|   3     | **Cautious Buyers**    |   44     |           90,000       |       18            | High income, very low spending. Careful and selective spenders      |
+| 1 & 4   | **Standard customers** |  27-56   |           50,000       |       42            | Average income, average spending. General mall visitors             |
 
 ## Business Recommendations: Marketing strategies
 1. **Prime Spenders:** Target with luxury brands, exclusive events, premium loyaly programs
