@@ -131,7 +131,7 @@ SELECT
 (SUM(CASE WHEN strftime('%Y', "Date received") = '2025' THEN 1 ELSE 0 END) -  
 SUM(CASE WHEN strftime('%Y', "Date received") = '2011' THEN 1 ELSE 0 END))  
 *100)  
-/SUM(CASE WHEN strftime('%Y', "Date received") = '2011' THEN 1 ELSE 0 END) AS growth_pct 
+/SUM(CASE WHEN strftime('%Y', "Date received") = '2011' THEN 1 ELSE 0 END) AS growth_pct  
 FROM complaints;
 
 
