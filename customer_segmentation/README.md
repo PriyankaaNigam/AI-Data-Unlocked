@@ -16,7 +16,7 @@ Features: Age, Annual Income, Spending Score
 The analysis segmented customers into 5 distinct personas:
 
 | Cluster | Persona Name           | Avg. Age | Avg. Annual income ($) | Avg. Spending Score | Characteristics                                                     |
-|:--------|------------------------|----------|------------------------|:-------------------:|--------------------------------------------------------------------:|
+|:--------|------------------------|:--------:|:----------------------:|:-------------------:|:--------------------------------------------------------------------|
 |   0     | **Prime Spenders**     |   33     |           86,000       |       82            | High income, high spending. Most valuable customers                 | 
 |   2     | **Eager Shoppers**     |   26     |           26,000       |       79            | Young, low income, high spending. Limited budget but trend-conscious|
 |   3     | **Cautious Buyers**    |   44     |           90,000       |       18            | High income, very low spending. Careful and selective spenders      |
