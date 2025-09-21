@@ -129,10 +129,10 @@ ORDER BY complaint_year;
 **SQL:**
 SELECT 
 (
-(SUM(CASE WHEN strftime('%Y', "Date received") = '2025' THEN 1 ELSE 0 END) - 
-SUM(CASE WHEN strftime('%Y', "Date received") = '2011' THEN 1 ELSE 0 END))
-*100)
-/SUM(CASE WHEN strftime('%Y', "Date received") = '2011' THEN 1 ELSE 0 END) AS growth_pct
+(SUM(CASE WHEN strftime('%Y', "Date received") = '2025' THEN 1 ELSE 0 END) -  
+SUM(CASE WHEN strftime('%Y', "Date received") = '2011' THEN 1 ELSE 0 END))  
+*100)  
+/SUM(CASE WHEN strftime('%Y', "Date received") = '2011' THEN 1 ELSE 0 END) AS growth_pct 
 FROM complaints;
 
 
@@ -148,22 +148,22 @@ FROM complaints;
 ## Were consumers satisfied with how the companies resolved their complaints?
 
 **SQL:**
-SELECT 
-SUM(CASE WHEN Lower(trim("Consumer disputed?")) = 'yes' THEN 1
+SELECT  
+SUM(CASE WHEN LOWER(TRIM("Consumer disputed?")) = 'yes' THEN 1
  ELSE 0 
- END)
-AS disputed_count
+ END)  
+AS disputed_count  
 FROM complaints;
 
 ## Result:
 **Resolutions disputed:** 148378
 
 **SQL:**
-SELECT 
-SUM(CASE WHEN Lower(trim("Consumer disputed?")) = 'yes' THEN 1
- ELSE 0 
- END) *100/COUNT(*)
-AS disputed_pct
+SELECT  
+SUM(CASE WHEN LOWER(TRIM("Consumer disputed?")) = 'yes' THEN 1
+ ELSE 0   
+ END) *100/COUNT(*)  
+AS disputed_pct  
 FROM complaints;
 
 ## Result:
@@ -171,27 +171,33 @@ FROM complaints;
 
 **Insight:** 
 
-- Most consumers were satified with the resolution of their complaints.
+- Most consumers are satified with the resolution of their complaints.
+- Or they do not challenge the resolution.
 
 ## Query 7
 ## What percentage of consumer complaints received monetary relief?
 
 **SQL:**
-SELECT
-SUM(CASE
-WHEN LOWER("company response to consumer") = 'closed with monetary relief' THEN 1
+SELECT   
+SUM(CASE  
+WHEN LOWER(TRIM(consumer_response)) = 'closed with monetary relief' THEN 1  
 ELSE 0
-END) *100
+END) *100  
 /SUM(CASE 
-WHEM LOWER("company response to consumer") <> 'in proress'THEN 1
+WHEM LOWER(TRIM(consumer_response) <> 'in proress'THEN 1
 ELSE 0
-END)
-AS monetary_releif_pct
-FROM complaints;
+END)  
+AS monetary_releif_pct  
+FROM  
+SELECT "Company response to consumer" AS consumer_response  
+FROM complaints  
+temp;
+
+Note: Created alias for the column "Company response to consumer" as consumer_response, since SQL considers the word "to" as a keyword and it can complicate queries.
 
 ## Result:
 **Percentage monetary relief:** 38%
 
 **Insight**
-- Most consumer issues are resolved without financial compensation
+- Most consumer issues are resolved without financial compensation.
 
