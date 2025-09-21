@@ -22,7 +22,7 @@ Confirms the dataset was imported successfully, with over 10.9 milion complaints
 
 **SQL:**
 
- SELECT Product, COUNT(*) AS complaint_count  
+ SELECT Product, COUNT(*) AS total_complaints 
  FROM complaints  
  GROUP BY Product  
  ORDER BY complaint_count DESC  
@@ -30,9 +30,9 @@ Confirms the dataset was imported successfully, with over 10.9 milion complaints
 
 ### Result: Top 10 products by number of complaints
 
-|     | Product                                                                     | complaint_count |
+|     | Product                                                                     | total_complaints|
 |:---:|-----------------------------------------------------------------------------|----------------:|
-|  1  | Credit reporting or personal conumer reports                                |     6044466    |
+|  1  | Credit reporting or personal conumer reports                                |     6044466     |
 |  2  | Credit reporting,credit repair services, or other personal consumer reports |     2163851     |
 |  3  | Debt collection                                                             |      867403     |
 |  4  | Mortgage                                                                    |      427831     |
@@ -89,10 +89,11 @@ ORDER BY complaint_year;
   - COVID-19 pandemic impacts on finances
   - Growing dissatisfaction with credit reporting and debt collection 
 
-## Query 4 
-## Which companies receive the most complaints, and how timely are their responses?
+### Query 4 
+### Which companies receive the most complaints, and how timely are their responses?
 
 **SQL:**
+
  SELECT Company,
  COUNT(*) AS total_complaints,  
  SUM(CASE WHEN "Timely response?" = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*) AS timely_response_rate_pct 
@@ -123,7 +124,7 @@ ORDER BY complaint_year;
 - Large national banks like Bank of America and Wells Fargo show slightly lower response rates, possibly due to higher volume of customers.
 - Indicates need for proactive customer service, not just reactive complaint handling.
 
-## Query 5
+### Query 5
 ## By how much percentage has the volume of complaints grown from 2011 to 2025 YTD?
 
 **SQL:**
@@ -144,10 +145,11 @@ FROM complaints;
 
 - The volume of complaints has exploded between 2011 and 2025.
 
-## Query 6
-## Were consumers satisfied with how the companies resolved their complaints?
+### Query 6
+### Were consumers satisfied with how the companies resolved their complaints?
 
 **SQL:**
+
 SELECT  
 SUM(CASE WHEN LOWER(TRIM("Consumer disputed?")) = 'yes' THEN 1
  ELSE 0 
@@ -155,10 +157,11 @@ SUM(CASE WHEN LOWER(TRIM("Consumer disputed?")) = 'yes' THEN 1
 AS disputed_count  
 FROM complaints;
 
-## Result:
+### Result:
 **Resolutions disputed:** 148378
 
 **SQL:**
+
 SELECT  
 SUM(CASE WHEN LOWER(TRIM("Consumer disputed?")) = 'yes' THEN 1
  ELSE 0   
@@ -166,7 +169,7 @@ SUM(CASE WHEN LOWER(TRIM("Consumer disputed?")) = 'yes' THEN 1
 AS disputed_pct  
 FROM complaints;
 
-## Result:
+### Result:
 **Percentage disputed:** 1.35%
 
 **Insight:** 
@@ -174,10 +177,11 @@ FROM complaints;
 - Most consumers are satified with the resolution of their complaints.
 - Or they do not challenge the resolution.
 
-## Query 7
-## What percentage of consumer complaints received monetary relief?
+### Query 7
+### What percentage of consumer complaints received monetary relief?
 
 **SQL:**
+
 SELECT   
 SUM(CASE  
 WHEN LOWER(TRIM(consumer_response)) = 'closed with monetary relief' THEN 1  
@@ -195,7 +199,7 @@ temp;
 
 Note: Created alias for the column "Company response to consumer" as consumer_response, since SQL considers the word "to" as a keyword and it can complicate queries.
 
-## Result:
+### Result:
 **Percentage monetary relief:** 38%
 
 **Insight**
