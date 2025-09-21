@@ -184,7 +184,7 @@ WHEN LOWER(TRIM(consumer_response)) = 'closed with monetary relief' THEN 1
 ELSE 0
 END) *100  
 /SUM(CASE 
-WHEM LOWER(TRIM(consumer_response) <> 'in proress'THEN 1
+WHEN LOWER(TRIM(consumer_response) <> 'in proress'THEN 1
 ELSE 0
 END)  
 AS monetary_releif_pct  
