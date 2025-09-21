@@ -15,7 +15,7 @@ Complaints disputed?
 2.  Aggregated complaints by year (2011 - 2025) using data functions to observe complaint growth over time.
 3.  Created metrics such *Timely Response Rate*, *Dispute Rate*, and *Monetary Relief Percentage* using CASE statements.
 4.  Built a Tableau dashboard showcasing trends over time, top 10 companies and products with highest compalint volumes, and important KPIs (Key Performance Indicators) such as growth, timely response rates, dispute rates, and monetary relief.
-5.  In Tableau, grouped duplicate product categories (ex. "Credit reporting" vs "Creditt reporting, credit repair and personal consumer reports") into broader product categories for cleaner viualization.
+5.  In Tableau, grouped duplicate product categories (ex. "Credit reporting" vs "Creditt reporting, credit repair and personal consumer reports") into broader product categories for cleaner visualization.
  ---
 
 ### Key Insights
