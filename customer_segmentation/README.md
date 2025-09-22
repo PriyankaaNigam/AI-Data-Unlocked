@@ -13,7 +13,7 @@ Features: Age, Annual Income, Spending Score
 4. **Results**  - Visualized clusters, added cluster centers, and compared groups 
   
 ## Results
-The analysis segmented customers into 5 distinct personas:
+The analysis segmented customers into 4 distinct personas based on 5 clusters:
 
 | Cluster | Persona Name           | Avg. Age | Avg. Annual income ($) | Avg. Spending Score | Characteristics                                                     |
 |:--------|------------------------|:--------:|:----------------------:|:-------------------:|:--------------------------------------------------------------------|
