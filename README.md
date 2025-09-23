@@ -18,8 +18,9 @@ Each project has its own folder with code, documentation, and results.
   Built K-Means clustering model to group mall customers into actional segments for marketing insights.
   
 - [CFPB Consumer Complaints Analysis (SQL, Tableau & Insights)](https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/CFPB_Complaint_Analysis)  
-  Queried 10M+ consumer complaints from the CFPB database using SQL and visualized the results in Tableau, uncovering products and companies with the highest complaint volumes, respose rates, and complaint trends over time. 
+  Queried 10M+ consumer complaints from the CFPB database using SQL and visualized the results in Tableau, uncovering products and companies with the highest complaint volumes, response rates, and complaint trends over time. 
 ---
+- Loan Risk Analysis with Power BI
 ## Upcoming Projects
 - Streamlit App
 - RFM Analysis
