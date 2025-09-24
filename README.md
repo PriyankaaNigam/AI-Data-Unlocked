@@ -19,10 +19,10 @@ Each project has its own folder with code, documentation, and results.
   
 - [CFPB Consumer Complaints Analysis (SQL, Tableau & Insights)](https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/CFPB_Complaint_Analysis)  
   Queried 10M+ consumer complaints from the CFPB database using SQL and visualized the results in Tableau, uncovering products and companies with the highest complaint volumes, response rates, and complaint trends over time. 
----
-- Loan Risk Analysis with Power BI
+
+- [Loan Risk Analysis with Power BI] (https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/Loan_risk_analysis_power_bi)
   Engineered an end-to-end Power BI solution that transforms raw data into actionable insights, revealing a clear "low-risk" borrower profile to guide marketing and risk assessment teams.
-  
+---  
 ## Upcoming Projects
 - Streamlit App
 - RFM Analysis
