@@ -10,11 +10,11 @@ https://www.kaggle.com/datasets/vipin20/loan-application-data
 1.  **Data Cleaning & Transformation (Power Query)**:
     * Promoted headers and verified data types.
     * Removed the irrelevant `Loan_ID` column.
-    * Handled missing values in categorical columns (`Married`, `Self_Employed`) by replacing both `null` and empty strings with "Unknown" for robust filtering.
-    * Addressed missing numerical data in `Credit_History` by replacing `null` with `0`, based on the business assumption that no history is equivalent to a poor history.
-    * Standardized text formatting in `Property_Area` (Semiurban --> Semi-urban).
+    * Handled missing values in categorical columns (Married, Self_Employed) by replacing both "null" and empty strings with "Unknown."
+    * Addressed missing numerical data in Credit_History column by replacing "null" with "0." 
+    * Formated text in Property_Area column (Semiurban --> Semi-urban).
 2.  **DAX Calculations**: 
-      Created a key performance indicator (KPI) for **Approval Rate** using the `DIVIDE` and `CALCULATE` functions.  
+      Created a key performance indicator (KPI) for **Approval Rate** using DIVIDE and `CALCULATE` functions.  
 3.  **Dashboard Design**: 
       Developed a clean, user-friendly dashboard with a custom "University of Melbourne" JSON theme. 
       The dashboard features:
