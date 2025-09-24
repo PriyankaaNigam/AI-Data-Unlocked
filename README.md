@@ -21,6 +21,8 @@ Each project has its own folder with code, documentation, and results.
   Queried 10M+ consumer complaints from the CFPB database using SQL and visualized the results in Tableau, uncovering products and companies with the highest complaint volumes, response rates, and complaint trends over time. 
 ---
 - Loan Risk Analysis with Power BI
+  Engineered an end-to-end Power BI solution that transforms raw data into actionable insights, revealing a clear "low-risk" borrower profile to guide marketing and risk assessment teams.
+  
 ## Upcoming Projects
 - Streamlit App
 - RFM Analysis
