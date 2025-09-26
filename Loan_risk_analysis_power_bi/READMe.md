@@ -16,14 +16,17 @@ https://www.kaggle.com/datasets/vipin20/loan-application-data
     * Converted Dependents column from numerical to categorical and replaced missing data with "Unknown"
     * Formated text in Property_Area column (Semiurban --> Semi-urban).
     * Addressed 18 missing values (3.6%) in LoanAmount column and 12 missing values in Loan_Amount_Term (2.8%) by retaining them as "null" to maintain counts.
-2.  **DAX Calculations**: 
+
+2.  **DAX Calculations**:
+   
       Created key performance indicators (KPI): 
-      Total Application = COUNTROWS('df1_loan')
-      Rejected Loan Count - CALCULATE(COUNTROWS('df1_loan'), df1_loan[Loan_Status] = "N")  
-      Approval Rate = DIVIDE(CALCULATE(COUNTROWS('df1_loan'), df1_loan[Loan_Status] = "Y"), COUNTROWS('df1_loan'))  
-      Average Loan Amount ($) = FORMAT(AVERAGE(df1_loan[LoanAmount]), "$0K")  
-      Median Loan Amount ($) = FORMAT(MEDIAN(df1_loan[LoanAmount]), "$0K")
-4.  **Dashboard Design**: 
+     * Total Application = COUNTROWS('df1_loan')
+     * Rejected Loan Count - CALCULATE(COUNTROWS('df1_loan'), df1_loan[Loan_Status] = "N")  
+     * Approval Rate = DIVIDE(CALCULATE(COUNTROWS('df1_loan'), df1_loan[Loan_Status] = "Y"), COUNTROWS('df1_loan'))  
+     * Average Loan Amount ($) = FORMAT(AVERAGE(df1_loan[LoanAmount]), "$0K")  
+     * Median Loan Amount ($) = FORMAT(MEDIAN(df1_loan[LoanAmount]), "$0K")
+       
+3.  **Dashboard Design**: 
       Developed a clean, user-friendly dashboard with a custom "University of Melbourne" JSON theme. 
       The dashboard features:
       * **KPI Cards**: Total Applications, Rejected Loans, Approval Rate, Average Loan Amount, and Median Loan Amount.
@@ -33,11 +36,15 @@ https://www.kaggle.com/datasets/vipin20/loan-application-data
         2. Approval Rate by Credit History
         3. Approval Rate by Income Range
         4. Approval Rate by Loan-to-Income ratio
- 5.  **Publishing**: 
+        5. 
+ 5.  **Publishing**:
+    
       Published dashboard to Power BI Service for interactive Exploration.
 
 ### Results
  [View the Interactive Dashboard Live](https://app.powerbi.com/view?r=eyJrIjoiYTRhZWJiNTQtNmVkOS00ZjE2LTkxNTItYjBkZTZhM2NhNTMwIiwidCI6IjY2OTA5YjAzLWIxZDctNDNmYS05YmUyLTMzMmVmYzQ1YWUxMCIsImMiOjZ9)
+
+
 ![Loan Risk Analysis Dashboard Preview](LoanRiskPowerBI.gif)
 
 ### Key Insights
