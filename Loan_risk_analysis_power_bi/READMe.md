@@ -45,7 +45,7 @@ https://www.kaggle.com/datasets/vipin20/loan-application-data
  [View the Interactive Dashboard Live](https://app.powerbi.com/view?r=eyJrIjoiYTRhZWJiNTQtNmVkOS00ZjE2LTkxNTItYjBkZTZhM2NhNTMwIiwidCI6IjY2OTA5YjAzLWIxZDctNDNmYS05YmUyLTMzMmVmYzQ1YWUxMCIsImMiOjZ9)
 
 
-![Loan Risk Analysis Dashboard Preview](LoanRiskPowerBI.gif)
+![Loan Risk Analysis Dashboard Preview](Loan Risk Analysis Power BI.gif)
 
 ### Key Insights
 
