@@ -18,7 +18,6 @@ https://www.kaggle.com/datasets/vipin20/loan-application-data
     * Addressed 18 missing values (3.6%) in LoanAmount column and 12 missing values in Loan_Amount_Term (2.8%) by retaining them as "null" to maintain counts.
 
 2.  **DAX Calculations**:
-   
       Created key performance indicators (KPI): 
      * Total Application = COUNTROWS('df1_loan')
      * Rejected Loan Count - CALCULATE(COUNTROWS('df1_loan'), df1_loan[Loan_Status] = "N")  
@@ -45,7 +44,7 @@ https://www.kaggle.com/datasets/vipin20/loan-application-data
  [View the Interactive Dashboard Live](https://app.powerbi.com/view?r=eyJrIjoiYTRhZWJiNTQtNmVkOS00ZjE2LTkxNTItYjBkZTZhM2NhNTMwIiwidCI6IjY2OTA5YjAzLWIxZDctNDNmYS05YmUyLTMzMmVmYzQ1YWUxMCIsImMiOjZ9)
 
 
-![Loan Risk Analysis Dashboard Preview](Loan Risk Analysis Power BI.gif)
+![Loan Risk Analysis Dashboard Preview](Loan_Risk_Analysis_Power_BI.gif)
 
 
 ### Key Insights
@@ -55,11 +54,11 @@ https://www.kaggle.com/datasets/vipin20/loan-application-data
 3. **Semi-urban applicants dominate** - Semi-urban applicants have the largest share of loan applications (around 38%).
 4. **Education Matters** - Graduates have higher loan approval rates than non-graduates.
 5. **Marital status boosts approval** - Married applicants have higher approval rates than singles.
-6. **Employment type and numner of dependents have little impact** - Neither significntly changes approval outcomes
+6. **Employment type and numner of dependents have little impact** - Neither significntly changes approval outcomes.
 7. **Loan-to-Income ratio is criticl** - Ratios > 3 sharply reduces approval rates.
 8. **Borrower Profiles:**
-- *Ideal:* Graduate, married, semi-urban, employed, established credit history, loan-to-income ratio < 2.
-- *High Risk:* Non-graduate, single, rural, self-employed, dependents, no credit hstory, loan-to-income ratio > 3.
+    *Ideal:* Graduate, married, semi-urban, employed, established credit history, loan-to-income ratio < 2.
+   *High Risk:* Non-graduate, single, rural, self-employed, dependents, no credit hstory, loan-to-income ratio > 3.
 
 ### Tools
 
