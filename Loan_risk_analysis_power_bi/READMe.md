@@ -17,12 +17,12 @@ https://www.kaggle.com/datasets/vipin20/loan-application-data
     * Formated text in Property_Area column (Semiurban --> Semi-urban).
     * Addressed 18 missing values (3.6%) in LoanAmount column and 12 missing values in Loan_Amount_Term (2.8%) by retaining them as "null" to maintain counts.
 2.  **DAX Calculations**: 
-      Created key performance indicators (KPI)
-    -- Total Application = COUNTROWS('df1_loan')
-    -- Rejected Loan Count - CALCULATE(COUNTROWS('df1_loan'), df1_loan[Loan_Status] = "N")
-    -- Approval Rate = DIVIDE(CALCULATE(COUNTROWS('df1_loan'), df1_loan[Loan_Status] = "Y"), COUNTROWS('df1_loan'))
-    -- Average Loan Amount ($) = FORMAT(AVERAGE(df1_loan[LoanAmount]), "$0K")
-    -- Median Loan Amount ($) = FORMAT(MEDIAN(df1_loan[LoanAmount]), "$0K")
+      Created key performance indicators (KPI): 
+      Total Application = COUNTROWS('df1_loan')
+      Rejected Loan Count - CALCULATE(COUNTROWS('df1_loan'), df1_loan[Loan_Status] = "N")  
+      Approval Rate = DIVIDE(CALCULATE(COUNTROWS('df1_loan'), df1_loan[Loan_Status] = "Y"), COUNTROWS('df1_loan'))  
+      Average Loan Amount ($) = FORMAT(AVERAGE(df1_loan[LoanAmount]), "$0K")  
+      Median Loan Amount ($) = FORMAT(MEDIAN(df1_loan[LoanAmount]), "$0K")
 4.  **Dashboard Design**: 
       Developed a clean, user-friendly dashboard with a custom "University of Melbourne" JSON theme. 
       The dashboard features:
@@ -37,9 +37,7 @@ https://www.kaggle.com/datasets/vipin20/loan-application-data
       Published dashboard to Power BI Service for interactive Exploration.
 
 ### Results
- [View the Interactive Dashboard Live](https://app.powerbi.com/view?r=eyJrIjoiM2ViMDI1ZTgtMmMyYy00ZjAxLTk5MWMtZjYxN2UwMDIwNTc2IiwidCI6IjY2OTA5YjAzLWIxZDctNDNmYS05YmUyLTMzMmVmYzQ1YWUxMCIsImMiOjZ9
-)
-
+ [View the Interactive Dashboard Live](https://app.powerbi.com/view?r=eyJrIjoiYTRhZWJiNTQtNmVkOS00ZjE2LTkxNTItYjBkZTZhM2NhNTMwIiwidCI6IjY2OTA5YjAzLWIxZDctNDNmYS05YmUyLTMzMmVmYzQ1YWUxMCIsImMiOjZ9)
 ![Loan Risk Analysis Dashboard Preview](LoanRiskPowerBI.gif)
 
 ### Key Insights
