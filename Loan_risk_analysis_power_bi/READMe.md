@@ -9,7 +9,7 @@ https://www.kaggle.com/datasets/vipin20/loan-application-data
 ### Steps:
 1.  **Data Cleaning & Transformation (Power Query)**:
     * Promoted headers and verified data types.
-    * Removed the irrelevant `Loan_ID` column.
+    * Removed the irrelevant Loan_ID column.
     * Handled missing values in categorical columns (Married, Self_Employed) by replacing both "null" and empty strings with "Unknown."
     * Addressed missing numerical data in Credit_History column by replacing "null" with "0."
     * Recoded Credit_History column to categorical ( "1" ="Yes" and "0" = "No.")
