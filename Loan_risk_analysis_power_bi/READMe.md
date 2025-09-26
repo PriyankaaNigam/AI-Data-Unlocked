@@ -47,6 +47,7 @@ https://www.kaggle.com/datasets/vipin20/loan-application-data
 
 ![Loan Risk Analysis Dashboard Preview](Loan Risk Analysis Power BI.gif)
 
+
 ### Key Insights
 
 1. **Credit history drives approval** - Applicants with credit history had nearly 80% approval, compared to less than 40% for those without.
