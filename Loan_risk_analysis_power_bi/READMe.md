@@ -17,7 +17,8 @@ https://www.kaggle.com/datasets/vipin20/loan-application-data
     * Formated text in Property_Area column (Semiurban --> Semi-urban).
     * Addressed 18 missing values (3.6%) in LoanAmount column and 12 missing values in Loan_Amount_Term (2.8%) by retaining them as "null" to maintain counts.
 
-2.  **DAX Calculations**:  
+2.  **DAX Calculations**:
+   
       Created key performance indicators (KPI): 
      * Total Application = COUNTROWS('df1_loan')
      * Rejected Loan Count = CALCULATE(COUNTROWS('df1_loan'), df1_loan[Loan_Status] = "N")  
