@@ -59,7 +59,7 @@ https://www.kaggle.com/datasets/vipin20/loan-application-data
 6. **Employment type and numner of dependents have little impact** - Neither significntly changes approval outcomes.
 7. **Loan-to-Income ratio is criticl** - Ratios > 3 sharply reduces approval rates.
 8. **Borrower Profiles:**  
-    *Ideal:* Graduate, married, semi-urban, employed, established credit history, loan-to-income ratio < 2.
+    *Ideal:* Graduate, married, semi-urban, employed, established credit history, loan-to-income ratio < 2.  
    *High Risk:* Non-graduate, single, rural, self-employed, dependents, no credit hstory, loan-to-income ratio > 3.
 
 ### Tools
