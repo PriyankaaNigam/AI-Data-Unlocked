@@ -23,7 +23,9 @@ https://ustvdb.com/ratings on 10/6/2025
        VAR net= MAXX(top1, channel_ratings[Network])
        VAR v= MAXX(top1, [V])
        RETURN prog & " _ " & net & " _ " & FORMAT(v, "0,,.0M")
-       
+
+**Weighted % Change in Viewship:** Standard % change treats all programs equally, regardless of their audience size. I created the Weighted % Change metric because it takes into account the audience size and better captures the business impact of viewership shifts. It highlights whether the networks with larger audiences are gaining or losing viewers and gives a more accurate picture of overall market momentum.
+
 3.  **Dashboard Design**:
     
       The dashboard features:
