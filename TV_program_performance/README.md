@@ -42,6 +42,7 @@ https://ustvdb.com/ratings on 10/6/2025
  [View the Interactive Dashboard Live](https://app.powerbi.com/view?r=eyJrIjoiNzg1ZDkwMzMtZWFjZi00YjBjLTg3MmQtNzM3YWE3MzRjMzFhIiwidCI6IjY2OTA5YjAzLWIxZDctNDNmYS05YmUyLTMzMmVmYzQ1YWUxMCIsImMiOjZ9)
 
 
+![TV Prgram Performance Preview](TV_program_performance.gif)
 
 
 ### Key Insights
