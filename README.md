@@ -21,10 +21,13 @@ Each project has its own folder with code, documentation, and results.
   Queried 10M+ consumer complaints from the CFPB database using SQL and visualized the results in Tableau, uncovering products and companies with the highest complaint volumes, response rates, and complaint trends over time. 
 
 - [Loan Risk Analysis with Power BI](https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/Loan_risk_analysis_power_bi)  
-  Developed an interactive Power BI analyzing loan applications to identify approval trends, borrower risk factors, and key determinants of credit decisions.
+  Developed an interactive Power BI dashboard analyzing loan applications to identify approval trends, borrower risk factors, and key determinants of credit decisions.
 
 - [TV Program Performance Analysis with Power BI](https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/TV_program_performnce)  
-  Built an interactive Power BI analyzing the top 100 U.S. TV programs. benchmrking KPIs (viewership, audience share, weighted % change) to identify top networks and programs.
+  Built an interactive Power BI dashboard analyzing the top 100 U.S. TV programs. benchmarking KPIs (viewership, audience share, weighted % change) to identify top networks and programs.
+
+-Insurance Analysis with Power BI
+Created an interactive Power BI dashboard analyzing insurance premiums, cliaimsand onversion funnel with KPIs, regional insights and customer segmentation.
 
 ---  
 ## Upcoming Projects
