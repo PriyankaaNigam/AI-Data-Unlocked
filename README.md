@@ -23,7 +23,7 @@ Each project has its own folder with code, documentation, and results.
 - [Loan Risk Analysis with Power BI](https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/Loan_risk_analysis_power_bi)  
   Developed an interactive Power BI analyzing loan applications to identify approval trends, borrower risk factors, and key determinants of credit decisions.
 
-- [TV Program Performance Aalysis with Power BI](https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/TV_program_performnce)  
+- [TV Program Performance Analysis with Power BI](https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/TV_program_performnce)  
   Built an interactive Power BI analyzing the top 100 U.S. TV programs. benchmrking KPIs (viewership, audience share, weighted % change) to identify top networks and programs.
 
 ---  
