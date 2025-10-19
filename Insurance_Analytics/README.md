@@ -17,10 +17,10 @@ Synthetic dataset with 10,000 rows simulating real-world insurance activity.
 2.  **DAX Calculations**:
    
       Created key performance indicators (KPI): 
-     * Conversion Rate = DIVIDE(SUM(synthetic_insurance_data[Conversion_Status]),SUM(synthetic_insurance_data[Website_Visits]))
+     * Conversion Rate (Web to Policy) = DIVIDE(SUM(synthetic_insurance_data[Conversion_Status]), SUM(synthetic_insurance_data[Website_Visits]))
      * High Severity Claims = CALCULATE(COUNTROWS(synthetic_insurance_data), synthetic_insurance_data[Claims_Severity]="High")  
      * Pct High Severity Claims = DIVIDE([High Severity Claims], COUNTROWS(synthetic_insurance_data))
-     * Pct_Had_Claim = DIVIDE(COUNTROWS(FILTER(synthetic_insurance_data,synthetic_insurance_data[Claims_Frequency]>0)), COUNTROWS(synthetic_insurance_data),0)  
+     * Pct With Any Claim  = DIVIDE(COUNTROWS(FILTER(synthetic_insurance_data,synthetic_insurance_data[Claims_Frequency]>0)), COUNTROWS(synthetic_insurance_data),0)  
       
 3.  **Dashboard Design**:
    
