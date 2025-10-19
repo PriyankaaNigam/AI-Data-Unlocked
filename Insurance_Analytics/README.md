@@ -39,10 +39,10 @@ Synthetic dataset with 10,000 rows simulating real-world insurance activity.
       Published dashboard to Power BI Service for interactive exploration.
 
 ### Results
- [View the Interactive Dashboard Live](https://app.powerbi.com/view?r=eyJrIjoiMjJhYmIyYTItY2RhYi00MmU3LTkwODItZjE0NDBhYzZlZDMzIiwidCI6IjY2OTA5YjAzLWIxZDctNDNmYS05YmUyLTMzMmVmYzQ1YWUxMCIsImMiOjZ9))
+ [View the Interactive Dashboard Live](https://app.powerbi.com/view?r=eyJrIjoiMjJhYmIyYTItY2RhYi00MmU3LTkwODItZjE0NDBhYzZlZDMzIiwidCI6IjY2OTA5YjAzLWIxZDctNDNmYS05YmUyLTMzMmVmYzQ1YWUxMCIsImMiOjZ9)
 
 
-![Insurance Analytics Dashboard Preview](Loan_Risk_Analysis_Power_BI.gif)
+![Insurance Analytics Dashboard Preview](Insurance_Analytics.gif)
 
 
 ### Key Insights
