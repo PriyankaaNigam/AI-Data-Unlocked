@@ -26,7 +26,7 @@ Each project has its own folder with code, documentation, and results.
 - [TV Program Performance Analysis with Power BI](https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/TV_program_performnce)  
   Built an interactive Power BI dashboard analyzing the top 100 U.S. TV programs. benchmarking KPIs (viewership, audience share, weighted % change) to identify top networks and programs.
 
-- Insurance Analysis with Power BI
+- [Insurance Analytics with Power BI](https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/Insurance_Analytics)
   
 Created an interactive Power BI dashboard analyzing insurance premiums, cliaims and conversion funnel with KPIs, regional insights, and customer segmentation.
 
