@@ -1,6 +1,6 @@
 # Insurance Analytics Dashboard (Power BI)
 
-This project analyzes sunthetic insurancee data to evaluate synthetic insurance data toevaluate premium distribution, claim frequency,lead funnle performance, and severity of claims.The goal is to provide insights into customer behavior across demographics and regions, while highligting conversion perfromance in insurance lifecycle.
+This project analyzes synthetic insurance data to evaluate premium distribution, claim frequency,lead funnle performance, and severity of claims.The goal is to provide insights into customer behavior across demographics and regions, while highligting conversion perfromance in insurance lifecycle.
 ---
 
 ### Data Source:   
