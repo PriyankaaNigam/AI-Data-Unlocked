@@ -11,7 +11,7 @@ Synthetic dataset with 10,000 rows simulating real-world insurance activity.
 ### Steps:
 1.  **Data Cleaning & Transformation (Power Query)**:
     * Promoted headers and verified data types.
-    * Removed irrelevantcolumns.
+    * Removed irrelevant columns.
     * There were no missing values in columns.
 
 2.  **DAX Calculations**:
