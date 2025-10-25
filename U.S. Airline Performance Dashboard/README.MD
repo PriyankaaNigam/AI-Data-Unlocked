@@ -27,7 +27,7 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
       * **Passenger Traffic trends**: Airline growth trajectory over time.
       * **Average Fare Trends**: Smoothed 5-year moving averagesto reduce voltility
       * **Market Share (2023)**: Breakdown of passenger percentage share among major carriers
-      * **Yield Efficiency**: cents per RPK as a measure of revenue efieiciency
+      * **Yield Efficiency**: Cents per RPK as a measure of revenue efieiciency
            
 ### Results
  [View the Dashboard on Tableau Public](https://public.tableau.com/app/profile/priyankaa.nigam/viz/USAirlines_17613434843190/Dashboard1)
