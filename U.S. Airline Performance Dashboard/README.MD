@@ -1,6 +1,6 @@
 # U.S. Airline Performance Dashboard (Tableau)
 
-This project analyzes U.S. airline performance to compare passenger traffic, pricing trends, market share and opertional efficiency (uied in cents per RPK). Using historical data (1993-2023), I built an interactive Tableau dashboard to evaluate airline competitiveness.
+This project analyzes U.S. airline performance to compare passenger traffic, pricing trends, market share, and opertional efficiency (yield in cents per RPK). Using historical data (1993-2023), I built an interactive Tableau dashboard to evaluate airline competitiveness.
 ---
 
 ### Data Source:   
@@ -33,7 +33,7 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
  [View the Dashboard on Tableau Public](https://public.tableau.com/app/profile/priyankaa.nigam/viz/USAirlines_17613434843190/Dashboard1)
 
 
-![U.S. Airline Performance Dashboard]
+![U.S. Airline Performance Dashboard](U.S. Airlines Performance Dashboard.png)
 
 
 ### Key Insights
