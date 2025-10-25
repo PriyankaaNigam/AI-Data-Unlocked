@@ -48,8 +48,8 @@ Synthetic dataset with 10,000 rows simulating real-world insurance activity.
 ### Key Insights
 
 1.  Urban customers contribute the largest share of total premiums (11.1M).
-2.  Lead funnelanalysis shows a 60% drop-off from website visits to quotes and 65% drop-off from quotes to polices, yielding only an 11.5% overall conversion rate.
-3.  Claims frequency is fairly consistent accross age groups (ranges 37-40%), but widowed 18-24 policyholders show the hihgst frequency (48%).
+2.  Lead funnel analysis shows a 60% drop-off from website visits to quotes and 65% drop-off from quotes to polices, yielding only an 11.5% overall conversion rate.
+3.  Claims frequency is fairly consistent accross age groups (ranges 37-40%), but widowed 18-24 policyholders show the highest frequency (48%).
 4.  Divorced policyholders aged 55-65 years record the highest share of high severity claims (13.5%). 
 
 ### Tools
