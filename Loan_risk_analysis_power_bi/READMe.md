@@ -57,7 +57,7 @@ https://www.kaggle.com/datasets/vipin20/loan-application-data
 4. **Education Matters** - Graduates have higher loan approval rates than non-graduates.
 5. **Marital status boosts approval** - Married applicants have higher approval rates than singles.
 6. **Employment type and numner of dependents have little impact** - Neither significntly changes approval outcomes.
-7. **Loan-to-Income ratio is criticl** - Ratios > 3 sharply reduces approval rates.
+7. **Loan-to-Income ratio is critical** - Ratios > 3 sharply reduce approval rates.
 8. **Borrower Profiles:**  
     *Ideal:* Graduate, married, semi-urban, employed, established credit history, loan-to-income ratio < 3.  
    *High Risk:* Non-graduate, single, rural, self-employed, dependents, no credit hstory, loan-to-income ratio > 3.
