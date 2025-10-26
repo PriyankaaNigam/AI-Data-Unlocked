@@ -9,7 +9,7 @@ Features: Age, Annual Income, Spending Score
 ## Steps
 1. **EDA** - Explored data with histograms, boxplots, and correlations
 2. **Preprocessing** - Cleaned data and scaled features with MinMaxScaler
-3. **Clustering** - Used **Elbow Method** and **Solhouette Score** to find the optimal number of clusters (k=5) 
+3. **Clustering** - Used **Elbow Method** and **Silhouette Score** to find the optimal number of clusters (k=5) 
 4. **Results**  - Visualized clusters, added cluster centers, and compared groups 
   
 ## Results
