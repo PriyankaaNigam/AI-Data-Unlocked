@@ -29,6 +29,11 @@ Each project has its own folder with code, documentation, and results.
 - [Insurance Analytics with Power BI](https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/Insurance_Analytics)
   Created an interactive Power BI dashboard analyzing insurance premiums, cliaims and conversion funnel with KPIs, regional insights, and customer segmentation.
 
+- [IU.S. Airline Performance (Tableau)](https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/U.S.%20Airline%20Performance%20Dashboard)  
+  Developed an interactive Tableau dashboard analyzing 30 years of U.S. airlines data to compare passenger traffic, fare trends, market share, and operational efficiency.
+
+  
+
 ---  
 ## Upcoming Projects
 - Churn Prediction
