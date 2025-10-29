@@ -18,7 +18,7 @@ https://www.kaggle.com/datasets/vipin20/loan-application-data](https://www.energ
    
       Developed a clean, interactive dashboard with filters and dynamic visuals. 
       
-      * **KPI Card**: Total Electricity(GWh)
+      * **KPI Card**: Total Electricity (GWh)
       * **Interactive Slicers**: Year, Agency Name, Agency Type.
       * **Visualizations**: 
         1. **Column Chart**: Total Electricity Consumption (GWh) by Sector
