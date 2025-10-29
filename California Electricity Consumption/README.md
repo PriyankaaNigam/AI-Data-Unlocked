@@ -30,6 +30,6 @@ https://www.kaggle.com/datasets/vipin20/loan-application-data](https://www.energ
       Published dashboard to Power BI Service for interactive exploration.
 
 ### Results
- [View the Interactive Dashboard Live]((https://app.powerbi.com/view?r=eyJrIjoiMTYxYTQzNTMtMzg0Mi00MTdiLWI4ZTItMmMwYTVlNjE1ZjUxIiwidCI6IjY2OTA5YjAzLWIxZDctNDNmYS05YmUyLTMzMmVmYzQ1YWUxMCIsImMiOjZ9))
+ [View the Interactive Dashboard Live](https://app.powerbi.com/view?r=eyJrIjoiMTYxYTQzNTMtMzg0Mi00MTdiLWI4ZTItMmMwYTVlNjE1ZjUxIiwidCI6IjY2OTA5YjAzLWIxZDctNDNmYS05YmUyLTMzMmVmYzQ1YWUxMCIsImMiOjZ9))
 
 
