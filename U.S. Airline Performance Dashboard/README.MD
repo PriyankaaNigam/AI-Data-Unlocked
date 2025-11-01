@@ -17,7 +17,7 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
    
       Key Tableau calcualtions Used: 
      * Passenger Revenue = [Passengers]*[Fare]
-     * Revenue Passenger Kilometers (RPK) = [Passengers]*[Dstance (miles)] * 1.60934
+     * Revenue Passenger Kilometers (RPK) = [Passengers]*[Distance (miles)] * 1.60934
      * (Passenger Yield (cents/RPK) =  [Passenger Revenue]/[Revenue Passenger Kilometers (RPK)])*100
      * Moving Average (Fare, 5 Year) = WINDOW_AVG(AVG(Fare]), (-2, 2)  
          
