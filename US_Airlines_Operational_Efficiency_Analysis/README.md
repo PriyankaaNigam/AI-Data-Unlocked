@@ -1,6 +1,6 @@
 # U.S. Airlines Operational Efficiency Analysis Dashboard (Tableau)
 
-This project analyzes U.S. airline operational performance to assess flight dealys, cancellations, and schedule efficiency from 1987-2020. Using historical flight data from U.S. Bureau of Transportation Sattistics (Kaggle), I built an interactive Power BI dashboard to uncover delay causes and operational trends across major airlines.
+This project analyzes U.S. airline operational performance from eight major airlines (American (AA), Alaska (AS), Delta (DL), Frontier (F9), JetBlue (B6), Spirit(NK), Southwest (WN) and United (UN)) to assess flight dealys, cancellations, and schedule efficiency from 1987-2020. Using historical flight data from U.S. Bureau of Transportation Sattistics (Kaggle), I built an interactive Power BI dashboard to uncover delay causes and operational trends across major airlines.
 ---
 
 ### Data Source:   
@@ -21,8 +21,8 @@ https://www.kaggle.com/datasets/mexwell/carrier-on-time-performance-dataset
      * Diversion Rate = DIVIDE(CALCULATE(COUNTROWS(FILTER('airline_2m','airline_2m'[Diverted]=1))),COUNTROWS('airline_2m'))*100
      * Shecule Adherance % = DIVIDE(AVERAGE('airline_2m'[CRSElapsedTime]), AVERAGE('airline_2m'[ActualElapsedTime]))*100
          
-3.  **Dashboard Design**:
-    
+3.  **Dashboard Components**:
+
 **Page 1: Overview**
 
 **KPI cards**: On-Time %, Avg Delay, Cancellation Rate, and Diversion Rate
@@ -64,9 +64,6 @@ Each cause represents a distinct source of flight delay affecting overall on-tim
 | **Security Delay** | Delay caused by **airport security issues or procedures** disrupting scheduled operations. | **TSA / Airport** | Security breaches, evacuations, or secondary passenger screening delays. | Usually rare but **high impact**; linked to heightened alert periods or specific incidents. |
 | **Late Aircraft Delay** | Delay resulting when a **plane arrives late from its previous flight**, preventing on-time turnaround for its next leg. | **Airline + Network** | An aircraft arriving 45 min late from Chicago delays its next departure to Los Angeles. | The **largest and most persistent** delay category; reflects cascading effects of prior delays across the network. |
 
----
-
-*Understanding these categories helps interpret trends in the dashboard’s “Delay Minutes by Cause” visual and identify where operational improvements can yield the greatest efficiency gains.*
 
            
 ### Results
@@ -78,13 +75,30 @@ Each cause represents a distinct source of flight delay affecting overall on-tim
 
 ### Key Insights
 
-1. **On-Time Performance** - 84.2% of flights from the eight major U.S. carriers departed within 15 minutes of scheduled time.
-2. **Major Delay Causes** - Aircraft delays i.e. plane arriving late from its prior flight and Carrier delay i.e internal airline issues.
-3. **Market Share** - Southwest Airlines (WN) had the largest market share (28%), while Alaska Airlines (AS) held the smalest share (6%). 
-4. **Efficiency (Yield)** -Delta Air (DL) and United Airlines (UA) generally acheived higher yields (cents per RPK), while Alaska Airlines (AS) and Sowest Airlines (WN) operated at lowerefficiency levels.
-5. **Dot-Com Crash (2000-2002)** - Demand for higher-price Airlines (AA, DL, UA) dipped after the Dot-Com Crash while that for lower-fare arlines (AS, WN) surged.
-6. **2008 Financial Crisis** - In 2009, following the financial crisis, higher-fare airlines like AA, DLand UA, sjhowed a sharper declie in passenger trafic, while low-cost SW was less impacted .
-7. **COVID-19 Pandemic (2020)** - There was a sharp decrease in passenger traffic and operational efficiency during the COVVID-19 pandamic. However, both rebounded to pre-pandemic values by 2022.
+###  On-Time Performance
+- **83.8** of flights from departed within 15 minutes of schedule.  
+- On-time rates have remained relatively stable despite rising air traffic volumes.  
+- Major carriers like **Delta (DL)** and **Alaska (AS)** consistently outperformed smaller airlines like Jetblue(B6).
+
+### Major Delay Causes
+- **Late Aircraft** and **Carrier Delays** were the major cause of flight delay.  
+- Late Aircraft delays reflect **network ripple effects**; a single late flight can delay multiple subsequent routes.  
+- Carrier Delays point to **internal airline inefficiencies** (crew scheduling, maintenance, baggage handling).
+
+### Security Delays
+- **Alaska Airines had maximum delays due to security reasons when flights origniated from various cities in Alaska.  
+
+### Operational Efficiency
+- **Schedule Adherence:** Averaged **102%**, indicating most flights operated better than planned times.  
+- **Taxi-Out Time:** Southwest (WN) maintained the lowest average ground times, signaling smoother turnaround operations, while Jetblue had the longest average grpund times. 
+- **AirTime Efficiency:** Longer routes showed consistent linearity between Distance and Air Time, confirming stable en-route performance.
+
+### Long-Term Trends
+- Actual flight times have gradually **decreased relative to scheduled times**, reflecting greater efficiency.  
+- Airlines have **optimized schedules** over decades to preserve on-time performance despite rising operational complexity.
+
+*Overall insight:* U.S. carriers have improved **operational consistency** through schedule adjustments and resource management, but **network delays** (Late Aircraft) remain the most significant challenge to on-time performance.
+
 
 ### Tools
 
