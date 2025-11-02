@@ -85,7 +85,7 @@ Each cause represents a distinct source of flight delay affecting overall on-tim
 - Carrier Delays point to **internal airline inefficiencies** (crew scheduling, maintenance, baggage handling).
 
 ### Security Delays
-- **Alaska Airines had maximum delays due to security reasons when flights origniated from various cities in Alaska.  
+- **Alaska Airlines** had maximum delays due to security reasons when flights origniated from various cities in Alaska.  
 
 ### Operational Efficiency
 - **Schedule Adherence:** Averaged **102%**, indicating most flights operated better than planned times.  
