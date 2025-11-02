@@ -40,6 +40,9 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
       [Valid Row - Shares] = NOT ISNULL([Large Ms]) AND [Large Ms] > 0
          AND NOT ISNULL([Lf Ms]) AND [Lf Ms] > 0
 
+       [Valid Row - Pax] = [Passengers] > 0 
+
+
 2.  **Calculated Fields**:
    
       Key Tableau calcualtions Used: 
@@ -59,6 +62,22 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
      * // Distinct market count (routes)
 
        [Market (Distinct Routes)]= CNTD([Tbl1ApK]) 
+
+     * // Passenger for each carrier type 
+         [Pax - Largest]  = IF NOT ISNULL([Large Ms]) AND [Large Ms] > 0 THEN [Passengers]*[Large Ms]  END
+
+        [Pax - Cheapest] = IF NOT ISNULL([lf Ms]) AND [lf Ms] > 0 THEN [Passengers]*[lf Ms]     END
+
+      * // Revenue & RPK (Revevenue per km) for one-way route
+         [Revenue - Largest]  = [Largest Carrier Fare]*[Pax - Largest]  
+         [Revenue - Cheapest] = [Cheapest Carrier Fare]*[Pax - Cheapest]
+
+         [RPK - Largest] = [Pax - Largest]*[Nsmiles]*1.60934
+         [RPK - Cheapest = [Pax - Cheapest]*[Nsmiles]*1.60934
+
+      * // Yield (¢ per RPK) — aggregated correctly across markets
+          [Yield - Largest]  = 100 * SUM([Revenue - Largest])  / SUM([RPK - Largest])  
+          [Yield - Cheapest] = 100 * SUM([Revenue - Cheapest]) / SUM([RPK - Cheapest])
          
 3.  **Dashboard Components**:
     
