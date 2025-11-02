@@ -66,7 +66,7 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
       * **Average Fare - Largest vs Cheapest Carrier**: Two-line comparison over time
       * **Price Gap % by Year)**: Average yearly % gap (largest vs cheaper carrier fairs)
       * **How concentrated were markets in 2023?**: Countof distinct routes by concentration bucket.
-      * **Top 10 Routes by Avg Price Gap % (2023): Table of routes with their average price gap %
+      * **Top 10 Routes by Avg Price Gap % (2023)**: Table of routes with their average price gap %
            
 ### Results
  [View the Dashboard on Tableau Public](https://public.tableau.com/app/profile/priyankaa.nigam/viz/U_S_AirlineDashboard/Dashboard1)
@@ -77,13 +77,10 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
 
 ### Key Insights
 
-1. **Passenger Growth** - Sowthwest Airlines (WN) and American Airlines (AA) show the largest gains in the number of passengers.
-2. **Fare Trends** - Alaska Airlines (AS) maintained the lowest fares over 20 years, while American Airlines (AA), Delta Air (DL) and United Airlines (UA) consistently charged higher fares.
-3. **Market Share** - Southwest Airlines (WN) had the largest market share (28%), while Alaska Airlines (AS) held the smallest share (6%). 
-4. **Passenger Yield** - Delta Air (DL) and United Airlines (UA) generally acheived higher yields (cents per RPK), while Alaska Airlines (AS) and Southwest Airlines (WN) operated at lower efficiency levels.
-5. **Dot-Com Crash (2000-2002)** - Demand for higher-price Airlines (AA, DL, UA) dipped after the Dot-Com Crash while that for lower-fare arlines (AS, WN) surged.
-6. **2008 Financial Crisis** - In 2009, following the financial crisis, higher-fare airlines like AA, DLand UA, sjhowed a sharper declie in passenger trafic, while low-cost SW was less impacted .
-7. **COVID-19 Pandemic (2020)** - There was a sharp decrease in passenger traffic and operational efficiency during the COVVID-19 pandamic. However, both rebounded to pre-pandemic values by 2022.
+1. **Passenger recovery** - Traffic plunged sharply in 2020 due to COVID-19 pandemic, but rebounded by 2023 to pre-pandemic levels.
+2. **Pricing gap widened in recent years** - The average price gap % (largest vs cheapest carrier) showed an upward trend after 2010 and reached its highest level in 2023 (approx. 29%)
+3. **High Concentation in 2023** - Most routes were concentrated, with the largest share falling in the 80-100% concentration bucket (by largest carrier share), suggesting that one carrier controlled most of the traffic in these routes.
+4. **Route Outliers** - Several routes showed >150% price gap. Largest carriers charge more than double the price of cheaper carriers for routes such as Charllote, NC to Phoenix,AZ; Atlanta, GA to Phoenix, AZ.
 
 ### Tools
 
