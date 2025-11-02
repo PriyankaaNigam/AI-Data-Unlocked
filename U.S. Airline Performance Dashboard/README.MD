@@ -62,13 +62,14 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
          
 3.  **Dashboard Components**:
     
-      * **Passenger Traffic trends**: Airline growth trajectory over time.
-      * **Average Fare Trends**: Smoothed 5-year moving averagesto reduce voltility
-      * **Market Share (2023)**: Breakdown of passenger percentage share among major carriers
-      * **Passenger yield**: Cents per RPK as a measure of pricing effiiciency over time
+      * **US Passenger Traffic (1993-2023)**: Airline growth trajectory over time
+      * **Average Fare - Largest vs Cheapest Carrier**: Two-line comparison over time
+      * **Price Gap % by Year)**: Average yearly % gap (largest vs cheaper carrier fairs)
+      * **How concentrated were markets in 2023?**: Countof distinct routes by concentration bucket.
+      * **Top 10 Routes by Avg Price Gap % (2023): Table of routes with their average price gap %
            
 ### Results
- [View the Dashboard on Tableau Public](https://public.tableau.com/app/profile/priyankaa.nigam/viz/USAirlines_17613434843190/Dashboard1)
+ [View the Dashboard on Tableau Public](https://public.tableau.com/app/profile/priyankaa.nigam/viz/U_S_AirlineDashboard/Dashboard1)
 
 
 ![U.S. Airline Performance Dashboard](U.S.%20Airlines%20Performance%20Dashboard.png)
