@@ -1,6 +1,6 @@
 # U.S. Airline Market Analysis Dashboard (Tableau)
 
-This project analyzes U.S. airline market to compare passenger traffic, pricing trends, market share, and passenger yield (cents per RPK). Using historical data (1993-2023), I built an interactive Tableau dashboard to evaluate airline competitiveness.
+This project analyzes U.S. airline market to compare passenger traffic, pricing gaps (largestvs cheapestcarrier), market concentration, and route-level outliers. Using historical data (1993-2023), I built an interactive Tableau dashboard to evaluate market structure and pricing dyanamics.
 ---
 
 ### Data Source:   
@@ -9,17 +9,46 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
 ### Steps:
 
 1.  **Data Preparation**:
-    * Verified data types and removed irrelevant fields.
-    * Handled missing passenger count and fare records. 
-    * Mapped carrier codes to full airline names
+    * Verified data types and removed irrelevant fields
+
+    * Cleaned city names (removed "Metroplitan Area)" suffix
+       [City 1 (short)] =TRIM(REGEXP_REPLACE([City1],'\s*\(.*\)', ''))
+       [City 2 (short)] = TRIM(REGEXP_REPLACE([City2],'\s*\(.*\)', ''))
+   
+    * Built Route labels used in labels
+       [Route] = [City 1 (Short)]+ " to " +[City 2 (Short) ]
+
+    * QA check: Identified nulls in passenger, fare and marketshare records. 
+                "Data through " + STR(INT(MAX([Year])))
+          + " • Null pax: " + STR(SUM(IIF(ISNULL([Passengers]),1,0)))
+          + " • Null fare: " + STR(SUM(IIF(ISNULL([Fare]),1,0)))
+          + " • Null Largest fare: " + STR(SUM(IIF(ISNULL([Largest Carrier Fare]),1,0)))
+          + " • Null Cheapest fare: " + STR(SUM(IIF(ISNULL([Cheapest Carrier Fare]),1,0)))
+          + " • Null large_ms: " + STR(SUM(IIF(ISNULL([Large Ms]),1,0)))
+          + " • Null lf_ms: " + STR(SUM(IIF(ISNULL([Lf Ms]),1,0)))
+          + " • Rows: " + STR(COUNT([Tbl]))
+
+    * Built valid row filter to only include rows without nulls
+      [Valid Row - Fares] = NOT ISNULL([Cheapest Carrier Fare]) AND [Cheapest Carrier Fare] > 0
+         AND NOT ISNULL([Largest Carrier Fare]) AND [Largest Carrier Fare] > 0
+      [Valid Row - Shares] = NOT ISNULL([Large Ms]) AND [Large Ms] > 0
+         AND NOT ISNULL([Lf Ms]) AND [Lf Ms] > 0
 
 2.  **Calculated Fields**:
    
       Key Tableau calcualtions Used: 
-     * Passenger Revenue = [Passengers]*[Fare]
-     * Revenue Passenger Kilometers (RPK) = [Passengers]*[Distance (miles)] * 1.60934
-     * Passenger Yield (cents/RPK) =  [Passenger Revenue]/[Revenue Passenger Kilometers (RPK)])*100
-     * Moving Average (Fare, 5 Year) = WINDOW_AVG(AVG(Fare]), (-2, 2)  
+     * // Price gap between largest and cheapest carrier
+       [Price Gap %] = ([Largest Carrier Fare] - [Cheapest Carrier Fare]) / [Cheapest Carrier Fare]
+
+     * // Market concentration buckets by largest carrier share
+       IF ISNULL([Large Ms]) THEN "UNKNOWN"
+       ELSEIF  [Large Ms] < 0.40 THEN "0–40%"
+       ELSEIF [Large Ms] < 0.60 THEN "40–60%"
+       ELSEIF [Large Ms] < 0.80 THEN "60–80%"
+       ELSE "80–100%" END
+
+     * // Distinct market count (routes)
+     [Market (Distinct Routes)]= CNTD([Tbl1ApK]) 
          
 3.  **Dashboard Components**:
     
