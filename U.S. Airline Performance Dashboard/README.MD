@@ -12,13 +12,16 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
     * Verified data types and removed irrelevant fields
 
     * Cleaned city names (removed "Metroplitan Area)" suffix
+
        [City 1 (short)] =TRIM(REGEXP_REPLACE([City1],'\s*\(.*\)', ''))
        [City 2 (short)] = TRIM(REGEXP_REPLACE([City2],'\s*\(.*\)', ''))
    
     * Built Route labels used in labels
+
        [Route] = [City 1 (Short)]+ " to " +[City 2 (Short) ]
 
-    * QA check: Identified nulls in passenger, fare and marketshare records. 
+    * QA check: Identified nulls in passenger, fare and marketshare records
+
                 "Data through " + STR(INT(MAX([Year])))
           + " • Null pax: " + STR(SUM(IIF(ISNULL([Passengers]),1,0)))
           + " • Null fare: " + STR(SUM(IIF(ISNULL([Fare]),1,0)))
@@ -29,6 +32,7 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
           + " • Rows: " + STR(COUNT([Tbl]))
 
     * Built valid row filter to only include rows without nulls
+
       [Valid Row - Fares] = NOT ISNULL([Cheapest Carrier Fare]) AND [Cheapest Carrier Fare] > 0
          AND NOT ISNULL([Largest Carrier Fare]) AND [Largest Carrier Fare] > 0
       [Valid Row - Shares] = NOT ISNULL([Large Ms]) AND [Large Ms] > 0
@@ -37,10 +41,13 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
 2.  **Calculated Fields**:
    
       Key Tableau calcualtions Used: 
+
      * // Price gap between largest and cheapest carrier
+
        [Price Gap %] = ([Largest Carrier Fare] - [Cheapest Carrier Fare]) / [Cheapest Carrier Fare]
 
      * // Market concentration buckets by largest carrier share
+
        IF ISNULL([Large Ms]) THEN "UNKNOWN"
        ELSEIF  [Large Ms] < 0.40 THEN "0–40%"
        ELSEIF [Large Ms] < 0.60 THEN "40–60%"
@@ -48,6 +55,7 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
        ELSE "80–100%" END
 
      * // Distinct market count (routes)
+
      [Market (Distinct Routes)]= CNTD([Tbl1ApK]) 
          
 3.  **Dashboard Components**:
