@@ -1,6 +1,6 @@
 # U.S. Airline Market Analysis Dashboard (Tableau)
 
-This project analyzes U.S. airline market to compare passenger traffic, pricing gaps (largest vs cheapest carrier), market concentration, and route-level outliers. Using historical data (1993-2023), I built an interactive Tableau dashboard to evaluate market structure and pricing dyanamics.
+This project analyzes U.S. airline market to compare passenger traffic, pricing gaps (largest vs cheapest carrier), market concentration, and route-level outliers. Using historical data (1993-2023), I built an interactive Tableau dashboard to evaluate market structure and pricing dynamics.
 ---
 
 ### Data Source:   
