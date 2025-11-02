@@ -83,6 +83,7 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
     
       * **US Passenger Traffic (1993-2023)**: Airline growth trajectory over time
       * **Average Fare - Largest vs Cheapest Carrier**: Two-line comparison over time
+      * **Yield (c/RPK) - Largest vs Cheapest Carrier**: pricing efficiency comparion over time
       * **Price Gap % by Year)**: Average yearly % gap (largest vs cheaper carrier fairs)
       * **How concentrated were markets in 2023?**: Countof distinct routes by concentration bucket.
       * **Top 10 Routes by Avg Price Gap % (2023)**: Table of routes with their average price gap %
@@ -96,9 +97,10 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
 
 ### Key Insights
 
-1. **Passenger recovery** - Traffic plunged sharply in 2020 due to COVID-19 pandemic, but rebounded by 2023 to pre-pandemic levels.
-2. **Pricing gap widened in recent years** - The average price gap % (largest vs cheapest carrier) showed an upward trend after 2010 and reached its highest level in 2023 (approx. 29%)
-3. **High Concentation in 2023** - Most routes were concentrated, with the largest share falling in the 80-100% concentration bucket (by largest carrier share), suggesting that one carrier controlled most of the traffic in these routes.
+1. **Passenger recovery** - Traffic plunged sharply in 2020 due to COVID-19 pandemic, but rebounded by 2023 to pre-pandemic levels.  
+2. **Pricing gap widened in recent years** - The average price gap % (largest vs cheapest carrier) showed an upward trend after 2010 and reached its highest level in 2023 (approx. 29%).  
+3. **Yield comparison** - Largest careers had higher yields than cheapest carriers because of pricing power.  
+4. **High Concentation in 2023** - Most routes were concentrated, with the largest share falling in the 80-100% concentration bucket (by largest carrier share), suggesting that one carrier controlled most of the traffic in these routes. 
 4. **Route Outliers** - Several routes showed >150% price gap. Largest carriers charge more than double the price of cheaper carriers for routes such as Charllote, NC to Phoenix, AZ; Atlanta, GA to Phoenix, AZ.
 
 ### Tools
