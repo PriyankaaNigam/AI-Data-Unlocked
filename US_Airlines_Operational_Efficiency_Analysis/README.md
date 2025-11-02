@@ -25,33 +25,33 @@ https://www.kaggle.com/datasets/mexwell/carrier-on-time-performance-dataset
 
     **Page 1: Overview**
 
-    **KPI cards**: On-Time %, Avg Delay, Cancellation Rate, and Diversion Rate
+      **KPI cards**: On-Time %, Avg Delay, Cancellation Rate, and Diversion Rate
 
-    **Bar chart**: Average Departure Delay by Airline
+      **Bar chart**: Average Departure Delay by Airline
 
-    **Donut chart**: On-Time vs Delayed Flights
+      **Donut chart**: On-Time vs Delayed Flights
 
-    **Slicers**: Year, Airline, and Origin City
+      **Slicers**: Year, Airline, and Origin City
 
 
     **Page 2: Delay Analysis**
 
-    **Stacked Column**: Delay Minutes by Cause (Weather, Carrier, NAS, Security, Late Aircraft)
+      **Stacked Column**: Delay Minutes by Cause (Weather, Carrier, NAS, Security, Late Aircraft)
 
-   **Line chart**: Average Departure Delay Trend (1987–2020)
+      **Line chart**: Average Departure Delay Trend (1987–2020)
 
-   **Matrix table**: Average Delay by City
+      **Matrix table**: Average Delay by City
 
 
-   **Page 3: Operational Efficiency**
+    **Page 3: Operational Efficiency**
 
-   **KPI**: Schedule Adherence %
+      **KPI**: Schedule Adherence %
 
-   **Bar chart**: Average Taxi-Out Time by Airline
+      **Bar chart**: Average Taxi-Out Time by Airline
 
-   **Scatter plot**: Average AirTime vs Distance (by Airline)
+      **Scatter plot**: Average AirTime vs Distance (by Airline)
 
-   **Combo Column and Line chart**: Actual vs Scheduled Flight Time Over Years
+      **Combo Column and Line chart**: Actual vs Scheduled Flight Time Over Years
 
 ## Delay Cause Glossary
 
