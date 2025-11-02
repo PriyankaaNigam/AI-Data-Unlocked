@@ -14,6 +14,7 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
     * Cleaned city names (removed "Metroplitan Area)" suffix
 
        [City 1 (short)] =TRIM(REGEXP_REPLACE([City1],'\s*\(.*\)', ''))
+
        [City 2 (short)] = TRIM(REGEXP_REPLACE([City2],'\s*\(.*\)', ''))
    
     * Built Route labels used in labels
@@ -35,6 +36,7 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
 
       [Valid Row - Fares] = NOT ISNULL([Cheapest Carrier Fare]) AND [Cheapest Carrier Fare] > 0
          AND NOT ISNULL([Largest Carrier Fare]) AND [Largest Carrier Fare] > 0
+
       [Valid Row - Shares] = NOT ISNULL([Large Ms]) AND [Large Ms] > 0
          AND NOT ISNULL([Lf Ms]) AND [Lf Ms] > 0
 
@@ -56,7 +58,7 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
 
      * // Distinct market count (routes)
 
-     [Market (Distinct Routes)]= CNTD([Tbl1ApK]) 
+       [Market (Distinct Routes)]= CNTD([Tbl1ApK]) 
          
 3.  **Dashboard Components**:
     
