@@ -91,6 +91,7 @@ Each cause represents a distinct source of flight delay affecting overall on-tim
 - **Schedule Adherence:** Averaged **102%**, indicating most flights operated better than planned times.  
 - **Taxi-Out Time:** Southwest (WN) maintained the lowest average ground times, signaling smoother turnaround operations, while Jetblue had the longest average grpund times. 
 - **AirTime Efficiency:** Longer routes showed consistent linearity between Distance and Air Time, confirming stable en-route performance.
+- **Hot-spots**: Cities like **Hyannis, MA** and **Aniak, AK** show extreme avg departure delays, upto 80 mins on average.
 
 ### Long-Term Trends
 - Actual flight times have gradually **decreased relative to scheduled times**, reflecting greater efficiency.  
