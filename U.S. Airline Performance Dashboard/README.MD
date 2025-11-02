@@ -1,6 +1,6 @@
-# U.S. Airline Performance Dashboard (Tableau)
+# U.S. Airline Market Analysis Dashboard (Tableau)
 
-This project analyzes U.S. airline performance to compare passenger traffic, pricing trends, market share, and passenger yield (cents per RPK). Using historical data (1993-2023), I built an interactive Tableau dashboard to evaluate airline competitiveness.
+This project analyzes U.S. airline market to compare passenger traffic, pricing trends, market share, and passenger yield (cents per RPK). Using historical data (1993-2023), I built an interactive Tableau dashboard to evaluate airline competitiveness.
 ---
 
 ### Data Source:   
