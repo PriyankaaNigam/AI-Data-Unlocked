@@ -70,9 +70,6 @@ Each cause represents a distinct source of flight delay affecting overall on-tim
  [View the Dashboard on PowerBI](https://app.powerbi.com/view?r=eyJrIjoiOTQxZGZjMWItZGI3YS00YTNlLWEzOGYtOTE4M2FjZjQ1ZmVkIiwidCI6IjY2OTA5YjAzLWIxZDctNDNmYS05YmUyLTMzMmVmYzQ1YWUxMCIsImMiOjZ9)
 
 
-![U.S. Airline Performance Dashboard](U.S.%20Airlines%20Performance%20Dashboard.png)
-
-
 ### Key Insights
 
 ###  On-Time Performance
