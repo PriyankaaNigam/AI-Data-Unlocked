@@ -23,33 +23,35 @@ https://www.kaggle.com/datasets/mexwell/carrier-on-time-performance-dataset
          
 3.  **Dashboard Components**:
 
-**Page 1: Overview**
+    **Page 1: Overview**
 
-**KPI cards**: On-Time %, Avg Delay, Cancellation Rate, and Diversion Rate
+    **KPI cards**: On-Time %, Avg Delay, Cancellation Rate, and Diversion Rate
 
-**Bar chart**: Average Departure Delay by Airline
+    **Bar chart**: Average Departure Delay by Airline
 
-**Donut chart**: On-Time vs Delayed Flights
+    **Donut chart**: On-Time vs Delayed Flights
 
-**Slicers**: Year, Airline, and Origin City
+    **Slicers**: Year, Airline, and Origin City
 
-**Page 2: Delay Analysis**
 
-**Stacked Column**: Delay Minutes by Cause (Weather, Carrier, NAS, Security, Late Aircraft)
+    **Page 2: Delay Analysis**
 
-**Line chart**: Average Departure Delay Trend (1987–2020)
+    **Stacked Column**: Delay Minutes by Cause (Weather, Carrier, NAS, Security, Late Aircraft)
 
-**Matrix table**: Average Delay by City
+   **Line chart**: Average Departure Delay Trend (1987–2020)
 
-**Page 3: Operational Efficiency**
+   **Matrix table**: Average Delay by City
 
-**KPI**: Schedule Adherence %
 
-**Bar chart**: Average Taxi-Out Time by Airline
+   **Page 3: Operational Efficiency**
 
-**Scatter plot**: Average AirTime vs Distance (by Airline)
+   **KPI**: Schedule Adherence %
 
-**Combo Column and Line chart**: Actual vs Scheduled Flight Time Over Years
+   **Bar chart**: Average Taxi-Out Time by Airline
+
+   **Scatter plot**: Average AirTime vs Distance (by Airline)
+
+   **Combo Column and Line chart**: Actual vs Scheduled Flight Time Over Years
 
 ## Delay Cause Glossary
 
@@ -73,7 +75,7 @@ Each cause represents a distinct source of flight delay affecting overall on-tim
 ### Key Insights
 
 ###  On-Time Performance
-- **83.8** of flights from departed within 15 minutes of schedule.  
+- **83.8%** of flights from departed within 15 minutes of schedule.  
 - On-time rates have remained relatively stable despite rising air traffic volumes.  
 - Major carriers like **Delta (DL)** and **Alaska (AS)** consistently outperformed smaller airlines like Jetblue(B6).
 
