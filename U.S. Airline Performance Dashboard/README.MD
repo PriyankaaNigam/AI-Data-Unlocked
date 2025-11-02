@@ -72,7 +72,7 @@ https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
  [View the Dashboard on Tableau Public](https://public.tableau.com/app/profile/priyankaa.nigam/viz/U_S_AirlineDashboard/Dashboard1)
 
 
-![U.S. Airline Performance Dashboard](US-Airline_Market_Dashboard.png)
+![U.S. Airline Performance Dashboard](US_Airline_Market_Dashboard.png)
 
 
 ### Key Insights
