@@ -1,6 +1,6 @@
 # U.S. Airlines Operational Efficiency Analysis Dashboard (Tableau)
 
-This project analyzes U.S. airline operational performance from eight major airlines (American (AA), Alaska (AS), Delta (DL), Frontier (F9), JetBlue (B6), Spirit( NK), Southwest (WN) and United (UN)) to assess flight dealys, cancellations, and schedule efficiency from 1987-2020. Using historical flight data from U.S. Bureau of Transportation Statistics (Kaggle), I built an interactive Power BI dashboard to uncover delay causes and operational trends across major airlines.
+This project analyzes U.S. airline operational performance from eight major airlines (American (AA), Alaska (AS), Delta (DL), Frontier (F9), JetBlue (B6), Spirit( NK), Southwest (WN) and United (UA)) to assess flight dealys, cancellations, and schedule efficiency from 1987-2020. Using historical flight data from U.S. Bureau of Transportation Statistics (Kaggle), I built an interactive Power BI dashboard to uncover delay causes and operational trends across major airlines.
 ---
 
 ### Data Source:   
