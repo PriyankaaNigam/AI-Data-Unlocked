@@ -5,7 +5,7 @@ The goal is to explore how different sectors (Commercial, Residential, Industria
 ---
 
 ### Data Source:   
-https://www.kaggle.com/datasets/vipin20/loan-application-data](https://www.energy.ca.gov/files/energy-consumption-data-files
+https://www.energy.ca.gov/files/energy-consumption-data-files
 
 ### Steps:
 1.  **Data Cleaning & Transformation (Power Query)**:
