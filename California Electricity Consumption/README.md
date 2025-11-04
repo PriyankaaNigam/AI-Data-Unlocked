@@ -14,7 +14,7 @@ https://www.energy.ca.gov/files/energy-consumption-data-files
     * Used Power Query's "Remove Empty" to filter out blanks in Electric Cosumption column.
     * Ensured columns were formatted corretly as texts and decimals.
        
-2.  **Dashboard Design**:
+2.  **Dashboard Components**:
    
       Developed a clean, interactive dashboard with filters and dynamic visuals. 
       
@@ -23,7 +23,7 @@ https://www.energy.ca.gov/files/energy-consumption-data-files
       * **Visualizations**: 
         1. **Column Chart**: Total Electricity Consumption (GWh) by Sector
         2. **Bar Chart**: Total Electricity Consumption (GWh) by Agency
-        3. **Line Chart**: AYearly electricity Consumption Trend
+        3. **Line Chart**: Yearly electricity Consumption Trend
               
  4.  **Publishing**:
     
@@ -31,5 +31,7 @@ https://www.energy.ca.gov/files/energy-consumption-data-files
 
 ### Results
  [View the Interactive Dashboard Live](https://app.powerbi.com/view?r=eyJrIjoiMTYxYTQzNTMtMzg0Mi00MTdiLWI4ZTItMmMwYTVlNjE1ZjUxIiwidCI6IjY2OTA5YjAzLWIxZDctNDNmYS05YmUyLTMzMmVmYzQ1YWUxMCIsImMiOjZ9)
+
+ ### Key Insights:
 
 
