@@ -24,7 +24,7 @@ https://www.energy.ca.gov/files/energy-consumption-data-files
       Developed a clean, interactive dashboard with filters and dynamic visuals. 
       
       * **KPI Card**: Total Electricity (GWh), Estimated CO₂e emission (Mt)
-      * **Interactive Slicers**: Year, Agency Name, Agency Type.
+      * **Interactive Slicers**: Year, Agency Name, Agency Type, Sector
       * **Visualizations**: 
         1. **Bar Chart**: Total Electricity Consumption (GWh) by Agency
         2. **Column Chart**: Total Electricity Consumption (GWh) by Sector
