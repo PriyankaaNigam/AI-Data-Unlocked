@@ -30,7 +30,7 @@ Each project has its own folder with code, documentation, and results.
   Created an interactive Power BI dashboard analyzing insurance premiums, cliaims and conversion funnel with KPIs, regional insights, and customer segmentation.
 
 - [U.S. Airline Performance (Tableau)](https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/U.S.%20Airline%20Performance%20Dashboard)  
-  Developed an interactive Tableau dashboard analyzing 30 years of U.S. airlines data to compare passenger traffic, fare trends, market share, and operational efficiency.
+  Developed an interactive Tableau dashboard analyzing 30 years of U.S. airlines data to compare passenger traffic, fare trends, market share, and pricing efficiency between largest and cheapest carriers.
 
  - [California Electricity Consumption (Power BI)](https://github.com/PriyankaaNigam/AI-Data-Unlocked/tree/main/California%20Electricity%20Consumption)  
  Built an interactive Power BI dashboard analyzing statewide electricity usage (1990-2024) by sector, agency, and year to uncover trends in energy consumption.
