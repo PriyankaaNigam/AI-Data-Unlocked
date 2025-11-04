@@ -17,7 +17,7 @@ https://www.energy.ca.gov/files/energy-consumption-data-files
 2. **DAX Measure**:
        CO₂e (Mt) = Total Electricity (GWh) × 0.195/1000
 
-   Factor Used: 0.195 tCO₂e/MWh (EPA eGRID 2023, CAMX subregion average)
+   GHG = greenhouse gases. CO₂e denotes total GHG expressed as CO₂-equivalent (100-yr GWP). This dashboard uses eGRID 2023 CAMX average 0.195 tCO₂e/MWh to convert GWh to CO₂e.
 
 3.  **Dashboard Components**:
    
