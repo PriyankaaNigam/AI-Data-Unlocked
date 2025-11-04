@@ -42,12 +42,12 @@ https://www.energy.ca.gov/files/energy-consumption-data-files
 **Scale & Carbon Footprint**: 
 
  Over 35 years, California's electricity sector generated 9.25M GWh electricity. This translates to an estimated 1,800 megatons (1.8 gigatons) of cumulative CO₂e emissions, which is equivalent to the annual emissions of ~390 million cars. Annual emissions peaked around 2007 at ~56 Mt/year and have plateaued at ~55 Mt/year through 2024.
- SCE serves ~79.3K GWh (≈28% of CA), making it a co-leader with PG&E. Therefore, even small percentage improvements at SCE produce outsized statewide carbon and reliability benefits. Every 1% efficiency gain at SCE avoids approximately 55 Mt of cumulative emission over 10 years.
+ SCE serves ~79.3K GWh (≈28% of CA), making it a co-leader with PG&E. Therefore, even small percentage improvements at SCE produce outsized statewide carbon and reliability benefits. Every 1% efficiency gain at SCE avoids approximately 57000 metric tons CO₂e/year (equivalent to 12,400 cars).
 
 **Sector Breakdown & Emissions Impact**: 
 
 Commercial + Residential = ~68% of Statewide electricity consumption load AND ~68% of emissions (1,220 Mt cumulative). So these sectors are prime targets for EE(Energy Efficiency) retrofits, DR (Demand Response) programs, and building electrification.
-Rising Transportation share: For SCE, trnsportation load rose from 4.3K to 6.4K GWh, consistent with rise in Electic Vehicle adoption signals EV adoption. There is an opportunity for managed charging to absorb midday solar and keep incremental load low-carbon
+Rising Transportation share: For SCE, transportation load rose from 4.3K to 6.4K GWh, consistent with rise in Electric Vehicle adoption. There is an opportunity for managed charging to absorb midday solar and keep incremental load low-carbon.
 
 **Overall Trend**:
 
