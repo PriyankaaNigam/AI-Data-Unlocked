@@ -1,7 +1,7 @@
 # California Electricity Consumption Dashboard (1990-2024)
 
 This project analyzes 35 years of California electricity consumption data to identify usage trends across sectors, agencies, and utlity types. 
-The goal is to explore how different sectors (Commercial, Residential, Industrial, etc.) contribute to total electricity demand and Carbon dioxide emission and how consumption patterns have evloved over time using an interactive Power BI dashboard. The tool supports clean-energy program planning by identifying high-impact sectors for energy efficiency (EE), demand response (DR), and electrification initiatives.
+The goal is to explore how different sectors (Commercial, Residential, Industrial, etc.) contribute to total electricity demand and GHG (CO₂e) emission and how consumption patterns have evloved over time using an interactive Power BI dashboard. The tool supports clean-energy program planning by identifying high-impact sectors for energy efficiency (EE), demand response (DR), and electrification initiatives.
 ---
 
 ### Data Source:   
