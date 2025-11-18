@@ -1,7 +1,18 @@
-# U.S. Airline Market Analysis Dashboard (Tableau)
+# U.S. Airline Pricing & Competition Dashboard (Tableau)
 
 This project analyzes U.S. airline market to compare passenger traffic, pricing gaps (largest vs cheapest carrier), market concentration, and route-level outliers. Using historical data (1993-2023), I built an interactive Tableau dashboard to evaluate market structure and pricing dynamics.
 ---
+
+### The Questions I want to answer:
+
+1. **Price gaps over time** 
+How have price gaps between premium and budget carriers evolved over time?
+
+2. **Market concentration**  
+How concentrated are individual routes by largest carrier's market share?
+
+3. **Route-level outliers**
+Which specific routes show extreme price differences between legacy and cheap carriers?
 
 ### Data Source:   
 https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
