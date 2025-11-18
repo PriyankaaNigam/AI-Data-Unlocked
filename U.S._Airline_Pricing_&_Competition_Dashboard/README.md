@@ -5,17 +5,25 @@ This project analyzes U.S. airline market to compare passenger traffic, pricing 
 
 ### The Questions I want to answer:
 
-1. **Price gaps over time** 
+1. **Price gaps over time**
+   
 How have price gaps between premium and budget carriers evolved over time?
 
-2. **Market concentration**  
+3. **Market concentration**
+   
 How concentrated are individual routes by largest carrier's market share?
 
-3. **Route-level outliers**
+5. **Route-level outliers**
+   
 Which specific routes show extreme price differences between legacy and cheap carriers?
 
 ### Data Source:   
-https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares
+ [Kaggle – US Airline Flight Routes and Fares](https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares)
+
+**Scope / limitation:**  
+The dataset provides quarterly route-level average fares by carrier type. It does not include flight-level details like stops, duration, or service level. So,price gaps reflect carrier positioning on each route, not comparisons of identical itineraries.
+
+---
 
 ### Steps:
 
