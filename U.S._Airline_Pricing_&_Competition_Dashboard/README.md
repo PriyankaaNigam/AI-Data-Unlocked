@@ -21,9 +21,17 @@ Which specific routes show extreme price differences between legacy and cheap ca
  [Kaggle – US Airline Flight Routes and Fares](https://www.kaggle.com/datasets/amitzala/us-airline-flight-routes-and-fares)
 
 **Scope / limitation:**  
-The dataset provides quarterly route-level average fares by carrier type. It does not include flight-level details like stops, duration, or service level. So,price gaps reflect carrier positioning on each route, not comparisons of identical itineraries.
+The dataset provides quarterly route-level average fares by carrier type. It does not include flight-level details like stops, duration, or service level. So, price gaps reflect carrier positioning on each route, not comparisons of identical itineraries.
 
----
+### Dashboard
+
+ [View the Dashboard on Tableau Public](https://public.tableau.com/app/profile/priyankaa.nigam/viz/U_S_AirlineDashboard/Routes)
+
+**Overview tab** 
+![Overview dashboard](Images/U.S._Airlines_Dashboard_Overview.png) 
+
+**Routes tab**
+![Routes dashboard](Images.U.S._Airlines_Dashboard_Routes.png)
 
 ### Steps:
 
@@ -114,10 +122,9 @@ The dataset provides quarterly route-level average fares by carrier type. It doe
       * **Top 10 Routes by Avg Price Gap % (2023)**: Table of routes with their average price gap %
            
 ### Results
- [View the Dashboard on Tableau Public](https://public.tableau.com/app/profile/priyankaa.nigam/viz/U_S_AirlineDashboard/Dashboard1)
 
 
-![U.S. Airline Performance Dashboard](US_Airline_Market_Dashboard.png)
+
 
 
 ### Key Insights
