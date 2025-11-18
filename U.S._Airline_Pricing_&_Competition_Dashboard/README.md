@@ -31,7 +31,33 @@ The dataset provides quarterly route-level average fares by carrier type. It doe
 ![Overview dashboard](Images/U.S._Airlines_Dashboard_Overview.png) 
 
 **Routes tab**
-![Routes dashboard](Images.U.S._Airlines_Dashboard_Routes.png)
+![Routes dashboard](Images/U.S._Airlines_Dashboard_Routes.png)
+
+### Key Insights
+
+1. **Passenger recovery is quick**
+    - Traffic plunged sharply in 2020 due to COVID-19 pandemic, but rebounded by 2023 to pre-pandemic levels.
+
+2. **Price gaps are at their highest levels in 30 years**
+    - In the 2000s, premium carriers typically charged about **15–20% more** than the cheapest carrier on the same route.  
+    - By **2023**, the average gap is closer to **25–30%**, the highest level in the period studied.
+  
+3. **Crisis periods temporarily narrowed gaps**  
+   - Around **2001 (9/11)** and **2008 (financial crisis)**, price gaps compressed to their lowest levels (~15%).  
+   - In the recovery that followed, gaps not only reverted but **surpassed prior levels**, ending at a 30-year high by 2023.
+     
+4. **Premium carriers earn more per mile**
+    - Yield (revenue per passenger-km) is consistently **higher for premium carriers** than for budget carriers.  
+    - The yield gap has widened over time, consistent with a deliberate premium positioning strategy.
+   
+5. **Many routes are effectively monopolies**  
+   - Over **2,500 routes** fall into the **80–100% concentration bucket** (by largest carrier share), where one airline carries the vast majority of passengers.  
+   - Only a small share of routes have anything close to balanced competition.
+      
+6. **Phoenix routes stand out as extreme outliers**
+   - Several routes involving **Phoenix** show **200%+ price gaps**, where the largest carrier’s average fare is more than **3×** the cheapest carrier’s fare in 2023.  
+   - Example: **Charlotte, NC → Phoenix, AZ** (American vs Frontier) in this dataset.
+     
 
 ### Steps:
 
@@ -127,13 +153,7 @@ The dataset provides quarterly route-level average fares by carrier type. It doe
 
 
 
-### Key Insights
 
-1. **Passenger recovery** - Traffic plunged sharply in 2020 due to COVID-19 pandemic, but rebounded by 2023 to pre-pandemic levels.  
-2. **Pricing gap widened in recent years** - The average price gap % (largest vs cheapest carrier) showed an upward trend after 2010 and reached its highest level in 2023 (approx. 29%).  
-3. **Yield comparison** - Largest careers had higher yields than cheapest carriers because of pricing power.  
-4. **High Concentation in 2023** - Most routes were concentrated, with the largest share falling in the 80-100% concentration bucket (by largest carrier share), suggesting that one carrier controlled most of the traffic in these routes. 
-4. **Route Outliers** - Several routes showed >150% price gap. Largest carriers charge more than double the price of cheaper carriers for routes such as Charllote, NC to Phoenix, AZ; Atlanta, GA to Phoenix, AZ.
 
 ### Tools
 
